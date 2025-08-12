@@ -93,6 +93,9 @@ a:hover {
   flex: 1;
   min-width: 260px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .image-block img {
@@ -131,6 +134,27 @@ a:hover {
   background-color: #1a73e8;
 }
 
+.section {
+  margin: 24px 0;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.available-players-section {
+  background: #e3f7e3;
+  border-left: 6px solid #4caf50;
+}
+
+.training-recap-section {
+  background: #fff3e0;
+  border-left: 6px solid #ff9800;
+}
+
+.team-focus-section {
+  background: #e3eafc;
+  border-left: 6px solid #2196f3;
+}
+
 .notes {
   margin-top: 25px;
   background: #e8f0fe;
@@ -163,25 +187,4 @@ a:hover {
   .image-pair-row {
     flex-direction: column;
   }
-}
-
-.section {
-  margin: 24px 0;
-  padding: 16px;
-  border-radius: 8px;
-}
-
-.available-players-section {
-  background: #e3f7e3;
-  border-left: 6px solid #4caf50;
-}
-
-.training-recap-section {
-  background: #fff3e0;
-  border-left: 6px solid #ff9800;
-}
-
-.team-focus-section {
-  background: #e3eafc;
-  border-left: 6px solid #2196f3;
 }
