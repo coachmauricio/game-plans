@@ -14,7 +14,7 @@
       const params = new URLSearchParams(window.location.search);
       const id = params.get("id");
 
-      const res = await fetch("games.json");
+      const res = await fetch("./games.json");
       const games = await res.json();
       const game = games.find(g => g.id === id);
 
