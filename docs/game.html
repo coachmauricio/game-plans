@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Game Plan</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a href="index.html" class="back-link">&larr; Back to Dashboard</a>
+  <section class="game-section" id="game-section">Loading...</section>
+
+  <script>
+    async function loadGame() {
+      const params = new URLSearchParams(window.location.search);
+      const id = params.get("id");
+
+      const res = await fetch("games.json");
+      const games = await res.json();
+      const game = games.find(g => g.id === id);
+
+      if (!game) {
+        document.getElementById("game-section").innerHTML = "<p>Game not found.</p>";
+        return;
+      }
+
+      document.title = `vs ${game.opponent} – Game Plan`;
+
+      document.getElementById("game-section").innerHTML = `
+        <h2>vs ${game.opponent} – ${game.date}</h2>
+        <div class="image-pair-row">
+          <div class="image-block">
+            <div class="section-header black-header">Lineup</div>
+            <img src="${game.images.lineup}" alt="Lineup" />
+          </div>
+          <div class="image-block">
+            <div class="section-header black-header">Opponent System of Play</div>
+            <img src="${game.images.opponentSOP}" alt="Opponent SOP" />
+          </div>
+        </div>
+        <div class="image-pair-row">
+          <div class="image-block">
+            <div class="section-header red-header">DO – Full Press</div>
+            <img src="${game.images.doFullPress}" alt="Full Press" />
+          </div>
+          <div class="image-block">
+            <div class="section-header red-header">DO – Mid/Low Press</div>
+            <img src="${game.images.doMidLowPress}" alt="Mid/Low Press" />
+          </div>
+          <div class="image-block">
+            <div class="section-header blue-header">AO – Build</div>
+            <img src="${game.images.aoBuild}" alt="AO Build" />
+          </div>
+        </div>
+        <div class="notes">
+          <h3>Available Players</h3>
+          <ul>${game.availablePlayers.map(p => `<li>${p}</li>`).join("")}</ul>
+          <h3>Training Recap</h3>
+          ${game.trainingRecap.map(r => `<p>${r}</p>`).join("")}
+          <h3>Game Model</h3>
+          <div class="game-model">
+            <p>⚽ <strong>ATTACKING ORGANIZATION:</strong> ${game.gameModel.attackingOrganization}</p>
+            <p>🛡️ <strong>DEFENSIVE ORGANIZATION:</strong> ${game.gameModel.defensiveOrganization}</p>
+            <p>🔄 <strong>DEFENSIVE TRANSITION:</strong> ${game.gameModel.defensiveTransition}</p>
+            <p>⚡ <strong>ATTACKING TRANSITION:</strong> ${game.gameModel.attackingTransition}</p>
+          </div>
+        </div>
+      `;
+    }
+    loadGame();
+  </script>
+</body>
+</html>

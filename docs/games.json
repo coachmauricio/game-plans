@@ -1,0 +1,50 @@
+[
+  {
+    "id": "team-a-2025-08-10",
+    "opponent": "Team A",
+    "date": "Aug 10, 2025",
+    "images": {
+      "lineup": "images/GAME-01.jpg",
+      "opponentSOP": "images/OPPONENT-433.jpg",
+      "doFullPress": "images/334-433-FULL-PRESS.jpg",
+      "doMidLowPress": "images/442-LOW-MID-BLOCK.jpg",
+      "aoBuild": "images/AO-BUILD.jpg"
+    },
+    "availablePlayers": ["Philip"],
+    "trainingRecap": [
+      "Building – Defenders breaking lines through pass or dribble",
+      "1-3-2 structure",
+      "High Press – Winning the ball, thinking, playing"
+    ],
+    "gameModel": {
+      "attackingOrganization": "Break lines through, around, or over. Move beyond, below, and beside the ball to create options. Be composed, fast, and sharp.",
+      "defensiveOrganization": "Press high when we can. In our half, stay compact. In the box: fill space, find your mark, and clear big. Everyone defends.",
+      "defensiveTransition": "React fast, recover hard, regroup quickly. Win it back or slow them down.",
+      "attackingTransition": "Secure the ball first. If the break is on, go fast. If not, keep it and build with control."
+    }
+  },
+  {
+    "id": "team-b-2025-08-17",
+    "opponent": "Team B",
+    "date": "Aug 17, 2025",
+    "images": {
+      "lineup": "images/GAME-02.jpg",
+      "opponentSOP": "images/OPPONENT-442.jpg",
+      "doFullPress": "images/334-442-HIGH-PRESS.jpg",
+      "doMidLowPress": "images/442-MID-BLOCK.jpg",
+      "aoBuild": "images/AO-BUILD-B2.jpg"
+    },
+    "availablePlayers": ["Mateo", "Liam", "Ethan"],
+    "trainingRecap": [
+      "Switching play through midfield",
+      "4-3-3 attacking shape",
+      "Quick transitions after regaining possession"
+    ],
+    "gameModel": {
+      "attackingOrganization": "Break lines quickly and switch the point of attack to open space.",
+      "defensiveOrganization": "Stay compact, press in packs, and defend with numbers behind the ball.",
+      "defensiveTransition": "Recover quickly into shape, delay attackers.",
+      "attackingTransition": "Exploit wide areas on turnovers, otherwise retain possession."
+    }
+  }
+]
