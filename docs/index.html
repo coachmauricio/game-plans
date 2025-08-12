@@ -7,9 +7,23 @@
 </head>
 <body>
   <h1>Game Plans Dashboard</h1>
-  <ul class="game-links">
-    <li><a href="vs-team-a.html">vs Team A – Aug 10</a></li>
-    <li><a href="vs-team-b.html">vs Team B – Aug 17</a></li>
-  </ul>
+  <ul class="game-links" id="game-links"></ul>
+
+  <script>
+    fetch("games.json")
+      .then(res => res.json())
+      .then(games => {
+        const list = document.getElementById("game-links");
+        list.innerHTML = games.map(
+          g => `
+            <li>
+              <a href="game.html?id=${g.id}">
+                <strong>vs ${g.opponent}</strong> – ${g.date}
+              </a>
+            </li>
+          `
+        ).join("");
+      });
+  </script>
 </body>
 </html>
