@@ -20,6 +20,12 @@ a:hover {
   text-decoration: underline;
 }
 
+.back-link {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
 .game-links {
   list-style: none;
   padding: 0;
@@ -60,19 +66,47 @@ a:hover {
   width: 48%;
   border-radius: 8px;
   border: 1px solid #ddd;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
 }
 
+/* 🔥 New styles for individual image blocks */
+.image-block {
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.image-block img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+/* 🔥 Header styling per image */
+.section-header {
+  padding: 8px 12px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.black-header {
+  background-color: #000;
+}
+
+.red-header {
+  background-color: #c00;
+}
+
+/* Notes section */
 .notes {
   margin-top: 25px;
   background: #e8f0fe;
   padding: 18px 22px;
   border-radius: 8px;
   border-left: 5px solid #1a73e8;
-}
-
-.back-link {
-  display: inline-block;
-  margin-bottom: 20px;
-  font-weight: 600;
 }
