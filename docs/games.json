@@ -1,0 +1,53 @@
+[
+  {
+    "id": "team-a-2025-08-10",
+    "opponent": "Team A",
+    "date": "Aug 10, 2025",
+    "images": {
+      "lineup": "images/GAME-01.jpg",
+      "opponentSOP": "images/OPPONENT-433.jpg",
+      "doFullPress": "images/334-433-FULL-PRESS.jpg",
+      "doMidLowPress": "images/442-LOW-MID-BLOCK.jpg"
+    },
+    "availablePlayers": ["Philip"],
+    "trainingRecap": [
+      "Building – Defenders breaking lines through pass or dribble",
+      "1-3-2 structure",
+      "High Press – Winning the ball, thinking, playing"
+    ]
+  },
+  {
+    "id": "team-b-2025-08-17",
+    "opponent": "Team B",
+    "date": "Aug 17, 2025",
+    "images": {
+      "lineup": "images/GAME-02.jpg",
+      "opponentSOP": "images/OPPONENT-442.jpg",
+      "doFullPress": "images/334-442-HIGH-PRESS.jpg",
+      "doMidLowPress": "images/442-MID-BLOCK.jpg"
+    },
+    "availablePlayers": ["Mateo", "Liam", "Ethan"],
+    "trainingRecap": [
+      "Switching play through midfield",
+      "4-3-3 attacking shape",
+      "Quick transitions after regaining possession"
+    ]
+  },
+  {
+    "id": "team-c-2025-08-24",
+    "opponent": "Team C",
+    "date": "Aug 24, 2025",
+    "images": {
+      "lineup": "images/GAME-03.jpg",
+      "opponentSOP": "images/OPPONENT-352.jpg",
+      "doFullPress": "images/334-352-PRESS.jpg",
+      "doMidLowPress": "images/352-MID-BLOCK.jpg"
+    },
+    "availablePlayers": ["Noah", "Oliver", "Lucas", "Benjamin"],
+    "trainingRecap": [
+      "Defending compact in the middle third",
+      "Fast wingers in counterattacks",
+      "Defensive communication & organization"
+    ]
+  }
+]
