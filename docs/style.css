@@ -141,18 +141,18 @@ a:hover {
 }
 
 .available-players-section {
-  background: #e3f7e3;
+  background: #eff2f5;
   border-left: 6px solid #4caf50;
 }
 
 .training-recap-section {
-  background: #fff3e0;
+  background: #e9ecf1;
   border-left: 6px solid #ff9800;
 }
 
 .team-focus-section {
   background: #e3eafc;
-  border-left: 6px solid #2196f3;
+  border-left: 6px solid #dfe3e7;
 }
 
 .notes {
@@ -165,19 +165,6 @@ a:hover {
 
 .notes p {
   margin: 6px 0;
-}
-
-.game-model {
-  margin-top: 15px;
-  background: #fff7e6;
-  padding: 15px;
-  border-radius: 8px;
-  border-left: 5px solid #ff9800;
-}
-
-.game-model p {
-  margin: 8px 0;
-  line-height: 1.4;
 }
 
 @media (max-width: 768px) {
