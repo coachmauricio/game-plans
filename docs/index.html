@@ -2,25 +2,29 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Game Plans Dashboard</title>
+  <title>Game Plan 11B – Season 25-26</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>⚽ Game Plans Dashboard</h1>
-  <div class="game-grid" id="game-links"></div>
-
-  <script>
-    fetch("games.json")
-      .then(res => res.json())
-      .then(games => {
-        document.getElementById("game-links").innerHTML = games.map(g => `
-          <div class="game-card">
-            <div class="game-date">${g.date}</div>
-            <h2>vs ${g.opponent}</h2>
-            <a href="game.html?id=${g.id}" class="view-link">View Plan</a>
-          </div>
-        `).join("");
-      });
-  </script>
+  <header class="main-header">
+    <img src="images/CUP10.png" alt="Team Logo" class="logo" />
+    <h1>Game Plan 11B – Season 25-26</h1>
+  </header>
+  <section class="game-grid">
+    <!-- Example game cards, replace with your dynamic content -->
+    <div class="game-card">
+      <div class="game-date">Aug 15, 2025</div>
+      <h2>vs Team Alpha</h2>
+      <div>Location: Home</div>
+      <a href="game.html?id=1" class="view-link">View Plan</a>
+    </div>
+    <div class="game-card">
+      <div class="game-date">Aug 22, 2025</div>
+      <h2>vs Team Beta</h2>
+      <div>Location: Away</div>
+      <a href="game.html?id=2" class="view-link">View Plan</a>
+    </div>
+    <!-- Repeat for all games -->
+  </section>
 </body>
 </html>
