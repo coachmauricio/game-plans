@@ -9,6 +9,12 @@
   <a href="index.html" class="back-link">&larr; Back to Dashboard</a>
   <section class="game-section" id="game-section">Loading...</section>
 
+  <!-- Lightbox overlay for image pop-out -->
+  <div id="lightbox-overlay" style="display:none;">
+    <span id="lightbox-close">&times;</span>
+    <img id="lightbox-img" src="" alt="Large view" />
+  </div>
+
   <script>
     async function loadGame() {
       const params = new URLSearchParams(window.location.search);
@@ -79,6 +85,20 @@
       }
     }
     loadGame();
+
+    // Lightbox effect for images
+    document.addEventListener("DOMContentLoaded", function() {
+      document.body.addEventListener("click", function(e) {
+        if (e.target.tagName === "IMG" && e.target.closest(".image-block")) {
+          document.getElementById("lightbox-img").src = e.target.src;
+          document.getElementById("lightbox-overlay").style.display = "flex";
+        }
+        if (e.target.id === "lightbox-close" || e.target.id === "lightbox-overlay") {
+          document.getElementById("lightbox-overlay").style.display = "none";
+          document.getElementById("lightbox-img").src = "";
+        }
+      });
+    });
   </script>
 </body>
 </html>
