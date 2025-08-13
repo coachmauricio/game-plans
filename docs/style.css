@@ -36,6 +36,22 @@ h1, h2 {
   box-shadow: 0 1px 4px rgba(26, 115, 232, 0.04);
 }
 
+/* Custom header backgrounds for image blocks */
+.black-header {
+  background: #222 !important;
+  color: #fff !important;
+}
+
+.red-header {
+  background: #c00 !important;
+  color: #fff !important;
+}
+
+.green-header {
+  background: #2ecc40 !important;
+  color: #fff !important;
+}
+
 .game-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -159,7 +175,6 @@ h1, h2 {
   font-size: 1.15rem;
   font-weight: 600;
   margin-bottom: 10px;
-  color: #1a73e8;
   letter-spacing: 0.5px;
   border-bottom: 2px solid #e3eafc;
   padding-bottom: 4px;
@@ -220,4 +235,9 @@ h1, h2 {
     max-width: 100%;
     width: 100%;
   }
-  .image-title
+  .image-title {
+    font-size: 1rem;
+    margin-bottom: 6px;
+    padding-bottom: 2px;
+  }
+}
