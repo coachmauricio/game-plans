@@ -80,18 +80,27 @@ h1 {
 
 /* Section styles for dashboard details */
 .available-players-section {
-  background: #eff2f5;
+  background: #f3f4f7;
   border-left: 6px solid #4caf50;
+  margin: 24px 0;
+  padding: 16px;
+  border-radius: 8px;
 }
 
 .training-recap-section {
-  background: #e9ecf1;
+  background: #f3f4f7;
   border-left: 6px solid #ff9800;
+  margin: 24px 0;
+  padding: 16px;
+  border-radius: 8px;
 }
 
 .team-focus-section {
-  background: #e3eafc;
-  border-left: 6px solid #dfe3e7;
+  background: #f3f4f7;
+  border-left: 6px solid #b0b4bb;
+  margin: 24px 0;
+  padding: 16px;
+  border-radius: 8px;
 }
 
 /* Compact image size for game cards */
