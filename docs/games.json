@@ -4,16 +4,16 @@
     "opponent": "U16B Gold",
     "date": "Aug 14, 2025",
     "images": {
-      "lineup": "images/GAME-01.jpg",
+      "lineup": "images/GAME-01.jpeg",
       "opponentSOP": "images/OPPONENT-433.jpg",
       "doFullPress": "images/334-433-FULL-PRESS.jpg",
       "doMidLowPress": "images/442-LOW-MID-BLOCK.jpg",
       "aoBuild": "images/325-433-BUILD.jpg"
     },
-    "availablePlayers": ["Philip"],
+    "availablePlayers": ["Xavier, Liam, Nicky, Cameron, Jake, Arturo, Claire, Cristian, Ricardo, Mason"],
     "trainingRecap": [
       "Attacking – Make well-timed diagonal or vertical runs in behind to challenge depth and disrupt shape.",
-      "Play Through, Around or Over; Break lines by choosing the most effective route based on space, numbers, and pressure"
+      "Attacking - Play Through, Around or Over; Break lines by choosing the most effective route based on space, numbers, and pressure"
     ],
     "gameModel": {
       "attackingOrganization": "Break lines through, around, or over. Move beyond, below, and beside the ball to create options. Be composed, fast, and sharp.",
