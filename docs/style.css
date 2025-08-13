@@ -109,7 +109,7 @@ h1 {
   margin-right: auto;
 }
 
-/* Larger image layout and size for game details page */
+/* Improved image layout and size for game details page */
 .image-pair-row {
   display: flex;
   flex-wrap: nowrap;
@@ -138,6 +138,20 @@ h1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* Modern image header style */
+.image-title {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #222;
+  letter-spacing: 0.5px;
+  border-bottom: 2px solid #e3eafc;
+  padding-bottom: 4px;
+  background: #f7faff;
+  border-radius: 6px 6px 0 0;
+  box-shadow: 0 1px 4px rgba(26, 115, 232, 0.04);
 }
 
 /* Lightbox styles */
@@ -191,5 +205,10 @@ h1 {
   .image-block img {
     max-width: 100%;
     width: 100%;
+  }
+  .image-title {
+    font-size: 1rem;
+    margin-bottom: 6px;
+    padding-bottom: 2px;
   }
 }
