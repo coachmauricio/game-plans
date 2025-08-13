@@ -1,8 +1,8 @@
 [
   {
-    "id": "team-a-2025-08-10",
-    "opponent": "Team A",
-    "date": "Aug 10, 2025",
+    "id": "U16B-Gold-2025-08-14",
+    "opponent": "U16B Gold",
+    "date": "Aug 14, 2025",
     "images": {
       "lineup": "images/GAME-01.jpg",
       "opponentSOP": "images/OPPONENT-433.jpg",
@@ -12,9 +12,8 @@
     },
     "availablePlayers": ["Philip"],
     "trainingRecap": [
-      "Building – Defenders breaking lines through pass or dribble",
-      "1-3-2 structure",
-      "High Press – Winning the ball, thinking, playing"
+      "Attacking – Make well-timed diagonal or vertical runs in behind to challenge depth and disrupt shape.",
+      "Play Through, Around or Over; Break lines by choosing the most effective route based on space, numbers, and pressure"
     ],
     "gameModel": {
       "attackingOrganization": "Break lines through, around, or over. Move beyond, below, and beside the ball to create options. Be composed, fast, and sharp.",
