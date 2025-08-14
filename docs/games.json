@@ -6,9 +6,9 @@
     "images": {
       "lineup": "images/GAME-01.jpeg",
       "opponentSOP": "images/OPPONENT-4231.jpeg",
-      "doFullPress": "images/334-433-FULL-PRESS.jpg",
-      "doMidLowPress": "images/442-LOW-MID-BLOCK.jpg",
-      "aoBuild": "images/325-433-BUILD.jpg"
+      "doFullPress": "images/334-433-FULL-PRESS.jpeg",
+      "doMidLowPress": "images/442-LOW-MID-BLOCK.jpeg",
+      "aoBuild": "images/325-433-BUILD.jpeg"
     },
     "availablePlayers": ["Thomas, Liam, Isaac, Cameron, Jake, Arturo, Claire, Cristian, Ricardo, Mason"],
     "trainingRecap": [
