@@ -38,10 +38,10 @@
     "availablePlayers": [],
     "trainingRecap": [],
     "gameModel": {
-      "attackingOrganization": "Break lines quickly and switch the point of attack to open space.",
-      "defensiveOrganization": "Stay compact, press in packs, and defend with numbers behind the ball.",
-      "defensiveTransition": "Recover quickly into shape, delay attackers.",
-      "attackingTransition": "Exploit wide areas on turnovers, otherwise retain possession."
+      "attackingOrganization": "Break lines through, around, or over. Move beyond, below, and beside the ball to create options. Be composed, fast, and sharp.",
+      "defensiveOrganization": "Press high when we can. In our half, stay compact. In the box: fill space, find your mark, and clear big. Everyone defends.",
+      "defensiveTransition": "React fast, recover hard, regroup quickly. Win it back or slow them down.",
+      "attackingTransition": "Secure the ball first. If the break is on, go fast. If not, keep it and build with control."
     },
     "videoReview": [
       {
