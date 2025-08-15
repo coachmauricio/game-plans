@@ -79,6 +79,19 @@
             <p>🔄 <strong>DEFENSIVE TRANSITION:</strong> ${game.gameModel.defensiveTransition}</p>
             <p>⚡ <strong>ATTACKING TRANSITION:</strong> ${game.gameModel.attackingTransition}</p>
           </div>
+          <div class="section video-review-section">
+            <h3>Video Review</h3>
+            ${
+              game.videoReview && game.videoReview.length
+                ? `<ul>${game.videoReview.map(v =>
+                    `<li>
+                      <a href="${v.link}" target="_blank" rel="noopener">VEO Link</a>
+                      ${v.note ? `<span style="margin-left:8px;">– ${v.note}</span>` : ""}
+                    </li>`
+                  ).join("")}</ul>`
+                : "<p>No video review available.</p>"
+            }
+          </div>
         `;
       } catch (err) {
         document.getElementById("game-section").innerHTML = "<p>Error loading game data.</p>";
