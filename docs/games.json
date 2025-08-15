@@ -23,7 +23,6 @@
       "defensiveTransition": "React fast, recover hard, regroup quickly. Win it back or slow them down.",
       "attackingTransition": "Secure the ball first. If the break is on, go fast. If not, keep it and build with control."
     }
-    // No videoReview field for this game
   },
   {
     "id": "FCC-2025-08-17",
@@ -37,9 +36,7 @@
       "aoBuild": ""
     },
     "availablePlayers": [],
-    "trainingRecap": [
-      
-    ],
+    "trainingRecap": [],
     "gameModel": {
       "attackingOrganization": "Break lines quickly and switch the point of attack to open space.",
       "defensiveOrganization": "Stay compact, press in packs, and defend with numbers behind the ball.",
