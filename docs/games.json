@@ -10,7 +10,9 @@
       "doMidLowPress": "images/442-LOW-MID-BLOCK.jpeg",
       "aoBuild": "images/325-433-BUILD.jpeg"
     },
-    "availablePlayers": ["Thomas, Liam, Isaac, Cameron, Jake, Arturo, Claire, Cristian, Ricardo, Mason"],
+    "availablePlayers": [
+      "Thomas", "Liam", "Isaac", "Cameron", "Jake", "Arturo", "Claire", "Cristian", "Ricardo", "Mason"
+    ],
     "trainingRecap": [
       "Attacking – Make well-timed diagonal or vertical runs in behind to challenge depth and disrupt shape.",
       "Attacking - Play Through, Around or Over; Break lines by choosing the most effective route based on space, numbers, and pressure"
@@ -21,29 +23,38 @@
       "defensiveTransition": "React fast, recover hard, regroup quickly. Win it back or slow them down.",
       "attackingTransition": "Secure the ball first. If the break is on, go fast. If not, keep it and build with control."
     }
+    // No videoReview field for this game
   },
   {
-    "id": "team-b-2025-08-17",
-    "opponent": "Team B",
+    "id": "FCC-2025-08-17",
+    "opponent": "FCC",
     "date": "Aug 17, 2025",
     "images": {
-      "lineup": "images/GAME-02.jpg",
-      "opponentSOP": "images/OPPONENT-442.jpg",
-      "doFullPress": "images/334-442-HIGH-PRESS.jpg",
-      "doMidLowPress": "images/442-MID-BLOCK.jpg",
-      "aoBuild": "images/AO-BUILD-B2.jpg"
+      "lineup": "",
+      "opponentSOP": "",
+      "doFullPress": "",
+      "doMidLowPress": "",
+      "aoBuild": ""
     },
-    "availablePlayers": ["Mateo", "Liam", "Ethan"],
+    "availablePlayers": [],
     "trainingRecap": [
-      "Switching play through midfield",
-      "4-3-3 attacking shape",
-      "Quick transitions after regaining possession"
+      
     ],
     "gameModel": {
       "attackingOrganization": "Break lines quickly and switch the point of attack to open space.",
       "defensiveOrganization": "Stay compact, press in packs, and defend with numbers behind the ball.",
       "defensiveTransition": "Recover quickly into shape, delay attackers.",
       "attackingTransition": "Exploit wide areas on turnovers, otherwise retain possession."
-    }
+    },
+    "videoReview": [
+      {
+        "link": "https://app.veo.co/matches/20250814-2010-cup-boys-gold-u16-vs-2011-gold-336a7fb6/#t=25:00",
+        "note": "Good combination play and effective interactions to progress the ball forward."
+      },
+      {
+        "link": "https://app.veo.co/matches/20250814-2010-cup-boys-gold-u16-vs-2011-gold-336a7fb6/#t=37:29",
+        "note": "Good intent from our CB to target the space behind their RCB and LB, matched by a smart run in behind from our attacking mid"
+      }
+    ]
   }
 ]
