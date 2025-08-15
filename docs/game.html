@@ -38,27 +38,27 @@
           <div class="image-pair-row">
             <div class="image-block">
               <h3 class="image-title black-header">Lineup</h3>
-              <img src="${game.images.lineup}" alt="Lineup" />
+              ${game.images.lineup ? `<img src="${game.images.lineup}" alt="Lineup" />` : ""}
             </div>
             <div class="image-block">
               <h3 class="image-title black-header">Opponent System of Play</h3>
-              <img src="${game.images.opponentSOP}" alt="Opponent SOP" />
+              ${game.images.opponentSOP ? `<img src="${game.images.opponentSOP}" alt="Opponent SOP" />` : ""}
             </div>
           </div>
           <div class="image-pair-row">
             <div class="image-block">
               <h3 class="image-title red-header">DO – Full Press</h3>
-              <img src="${game.images.doFullPress}" alt="Full Press" />
+              ${game.images.doFullPress ? `<img src="${game.images.doFullPress}" alt="Full Press" />` : ""}
             </div>
             <div class="image-block">
               <h3 class="image-title red-header">DO – Mid/Low Press</h3>
-              <img src="${game.images.doMidLowPress}" alt="Mid/Low Press" />
+              ${game.images.doMidLowPress ? `<img src="${game.images.doMidLowPress}" alt="Mid/Low Press" />` : ""}
             </div>
           </div>
           <div class="image-pair-row">
             <div class="image-block">
               <h3 class="image-title green-header">AO – Build</h3>
-              <img src="${game.images.aoBuild}" alt="Build" />
+              ${game.images.aoBuild ? `<img src="${game.images.aoBuild}" alt="Build" />` : ""}
             </div>
             <div class="image-block">
               <!-- Empty block to keep AO – Build sizing consistent -->
