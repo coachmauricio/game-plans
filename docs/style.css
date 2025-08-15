@@ -124,6 +124,23 @@ h1, h2 {
   border-radius: 8px;
 }
 
+/* Add to style.css */
+.video-review-section {
+  background: #f3f4f7;
+  border-left: 6px solid #2196f3;
+  margin: 24px 0;
+  padding: 16px;
+  border-radius: 8px;
+}
+.video-review-section a {
+  color: #1a73e8;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.video-review-section ul {
+  padding-left: 18px;
+}
+
 /* Compact image size for game cards */
 .game-card img {
   max-width: 120px;
