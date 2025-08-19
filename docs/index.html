@@ -13,19 +13,27 @@
   <section id="calendar"></section>
   <script>
     Promise.all([
-      fetch('games.json').then(r => r.json()),
-      fetch('game_meta.json').then(r => r.json())
-    ]).then(([games, meta]) => {
-      // Build a lookup for meta info
-      const metaMap = {};
-      meta.forEach(m => metaMap[m.id] = m);
+      fetch('game_meta.json').then(r => r.json()),
+      fetch('games.json').then(r => r.json())
+    ]).then(([meta, games]) => {
+      // Build a lookup for extra game details
+      const gameMap = {};
+      games.forEach(g => gameMap[g.id] = g);
 
-      // Group games by month
+      // Group games by month using meta
       const months = {};
-      games.forEach(game => {
-        const month = new Date(game.date).toLocaleString('default', { month: 'long', year: 'numeric' });
+      meta.forEach(game => {
+        // Try to get date from meta, else from games.json
+        const details = gameMap[game.id] || {};
+        const date = game.date || details.date || '';
+        // Parse month from date
+        let month = '';
+        if (date) {
+          const [monthName, , year] = date.split(/[\s,]+/);
+          month = `${monthName} ${year}`;
+        }
         if (!months[month]) months[month] = [];
-        months[month].push(game);
+        months[month].push({ ...game, ...details, date });
       });
 
       // Helper to color score
@@ -47,15 +55,14 @@
         <h2 class="month-header">${month}</h2>
         <div class="game-grid">
           ${games.map(game => {
-            const m = metaMap[game.id] || {};
-            const score = m.score || '';
+            const score = game.score || '';
             return `
               <div class="game-card">
-                <div class="game-date">${game.date}</div>
+                <div class="game-date">${game.date || ''}</div>
                 <h2>${game.opponent ? 'vs ' + game.opponent : ''}</h2>
                 <div>${game.competition || ''}</div>
                 <div class="game-meta">
-                  <span class="formation">${m.formation || ''}</span>
+                  <span class="formation">${game.formation || ''}</span>
                   <span class="score ${scoreClass(score)}">${score}</span>
                 </div>
                 <a href="game.html?id=${game.id}" class="view-link">View Plan</a>
