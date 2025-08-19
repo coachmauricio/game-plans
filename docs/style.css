@@ -266,4 +266,13 @@ h1, h2 {
     margin-bottom: 6px;
     padding-bottom: 2px;
   }
+  .score-win {
+  color: #2ecc40 !important; /* green */
+  }
+  .score-lose {
+  color: #c00 !important;    /* red */
+  }
+  .score-draw {
+  color: #888 !important;    /* gray */
+  }
 }
