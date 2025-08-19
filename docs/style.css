@@ -214,6 +214,23 @@ h1, h2 {
   z-index: 10000;
 }
 
+/* Formation and score styles for game cards */
+.game-meta {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0;
+  font-size: 0.9rem;
+  color: #444;
+}
+.formation {
+  font-weight: 600;
+  color: #2ecc40;
+}
+.score {
+  font-weight: 600;
+  color: #c00;
+}
+
 @media (max-width: 768px) {
   body {
     padding: 10px;
