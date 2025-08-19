@@ -27,50 +27,36 @@ h1, h2 {
   letter-spacing: 0.5px;
 }
 
-.game-card h2, .image-title {
+.month-header {
+  margin-top: 40px;
+  margin-bottom: 18px;
+  font-size: 1.4rem;
   color: #1a73e8;
   border-bottom: 2px solid #e3eafc;
-  padding-bottom: 4px;
-  background: #f7faff;
-  border-radius: 6px 6px 0 0;
-  box-shadow: 0 1px 4px rgba(26, 115, 232, 0.04);
-}
-
-/* Custom header backgrounds for image blocks */
-.black-header {
-  background: #222 !important;
-  color: #fff !important;
-}
-
-.red-header {
-  background: #c00 !important;
-  color: #fff !important;
-}
-
-.green-header {
-  background: #2ecc40 !important;
-  color: #fff !important;
+  padding-bottom: 6px;
+  letter-spacing: 1px;
 }
 
 .game-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 12px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 28px;
+  margin-bottom: 30px;
 }
 
 .game-card {
   background: white;
-  padding: 14px;
-  border-radius: 12px;
+  padding: 18px;
+  border-radius: 14px;
   text-align: center;
-  box-shadow: 0 2px 6px rgba(26, 115, 232, 0.08);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 2px 8px rgba(26, 115, 232, 0.08);
+  transition: transform 0.2s, box-shadow 0.2s;
   font-size: 0.95rem;
 }
 
 .game-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(26, 115, 232, 0.18);
+  transform: translateY(-4px) scale(1.03);
+  box-shadow: 0 6px 18px rgba(26, 115, 232, 0.18);
 }
 
 .game-date {
@@ -124,7 +110,6 @@ h1, h2 {
   border-radius: 8px;
 }
 
-/* Add to style.css */
 .video-review-section {
   background: #f3f4f7;
   border-left: 6px solid #2196f3;
@@ -237,8 +222,15 @@ h1, h2 {
     flex-direction: column;
     gap: 8px;
   }
+  .month-header {
+    font-size: 1.1rem;
+    margin-top: 24px;
+    margin-bottom: 10px;
+    padding-bottom: 2px;
+  }
   .game-grid {
     grid-template-columns: 1fr;
+    gap: 16px;
   }
   .game-card {
     font-size: 0.9rem;
