@@ -224,11 +224,19 @@ h1, h2 {
 }
 .formation {
   font-weight: 600;
-  color: #2ecc40;
+  color: inherit; /* Use normal font color */
 }
 .score {
   font-weight: 600;
-  color: #c00;
+}
+.score-win {
+  color: #2ecc40 !important; /* green */
+}
+.score-lose {
+  color: #c00 !important;    /* red */
+}
+.score-draw {
+  color: #888 !important;    /* gray */
 }
 
 @media (max-width: 768px) {
@@ -265,14 +273,5 @@ h1, h2 {
     font-size: 1rem;
     margin-bottom: 6px;
     padding-bottom: 2px;
-  }
-  .score-win {
-  color: #2ecc40 !important; /* green */
-  }
-  .score-lose {
-  color: #c00 !important;    /* red */
-  }
-  .score-draw {
-  color: #888 !important;    /* gray */
   }
 }
