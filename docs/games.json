@@ -67,7 +67,7 @@
     "images": {
       "lineup": "",
       "opponentSOP": "images/OPPONENT-352.png",
-      "doFullPress": "images4231-352-HIGH-PRESS.jpg",
+      "doFullPress": "images/4231-352-HIGH-PRESS.jpg",
       "doMidLowPress": "images/433-LOW-MID-BLOCK.png",
       "aoBuild": "images/325-352-BUILD.jpg"
     },
@@ -75,8 +75,8 @@
   
     ],
     "trainingRecap": [
-      "Defending – 3Ps; Press with Pace, Power and Purpose.",
-      "Defending - Prevent Forward Play"
+       "Defending - Prevent Forward Play by denying passing lanes",
+       "Performance Mentality – 3Ps of Pressing: Press with Pace, Power and Purpose."
     ],
     "gameModel": {
       "attackingOrganization": "Break lines through, around, or over. Move beyond, below, and beside the ball to create options. Be composed, fast, and sharp.",
@@ -93,8 +93,9 @@
     "images": {},
     "availablePlayers": [],
     "trainingRecap": [
-      "Defending – 3Ps; Press with Pace, Power and Purpose.",
-      "Defending - Prevent Forward Play"
+      "Defending - Prevent Forward Play by denying passing lanes",
+      "Performance Mentality – 3Ps of Pressing; Press with Pace, Power and Purpose."
+
     ],
     "gameModel": {
       "attackingOrganization": "Break lines through, around, or over. Move beyond, below, and beside the ball to create options. Be composed, fast, and sharp.",
