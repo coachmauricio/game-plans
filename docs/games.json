@@ -71,7 +71,7 @@
       "doMidLowPress": "images/433-LOW-MID-BLOCK.png",
       "aoBuild": "images/325-352-BUILD.jpg"
     },
-    "availablePlayers": [],
+    "availablePlayers": ["Thomas","Andres","Cam","Zion"],
     "trainingRecap": [
       "Defending - Prevent Forward Play by denying passing lanes",
       "Performance Mentality – 3Ps of Pressing: Press with Pace, Power and Purpose."
