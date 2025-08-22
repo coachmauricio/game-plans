@@ -59,6 +59,49 @@
         "note": "Box defending: 2Fs — Fill the space, Find your mark. No free players. This is everyone’s job — defenders, midfielders tracking back, all working together. Take ownership."
       }
     ]
+  },
+  {
+    "id": "Beadling-2025-08-23",
+    "opponent": "Beadling",
+    "date": "Aug 23, 2025",
+    "images": {
+      "lineup": "",
+      "opponentSOP": "images/OPPONENT-352.png",
+      "doFullPress": "images4231-352-HIGH-PRESS.jpg",
+      "doMidLowPress": "images/433-LOW-MID-BLOCK.png",
+      "aoBuild": "images/325-352-BUILD.jpg"
+    },
+    "availablePlayers": [
+  
+    ],
+    "trainingRecap": [
+      "Defending – 3Ps; Press with Pace, Power and Purpose.",
+      "Defending - Prevent Forward Play"
+    ],
+    "gameModel": {
+      "attackingOrganization": "Break lines through, around, or over. Move beyond, below, and beside the ball to create options. Be composed, fast, and sharp.",
+      "defensiveOrganization": "Press high when we can. In our half, stay compact. In the box: fill space, find your mark, and clear big. Everyone defends.",
+      "defensiveTransition": "React fast, recover hard, regroup quickly. Win it back or slow them down.",
+      "attackingTransition": "Secure the ball first. If the break is on, go fast. If not, keep it and build with control."
+
+    }
+  },
+  {
+    "id": "Keystone-2025-08-24",
+    "opponent": "Keystone",
+    "date": "Aug 24, 2025",
+    "images": {},
+    "availablePlayers": [],
+    "trainingRecap": [
+      "Defending – 3Ps; Press with Pace, Power and Purpose.",
+      "Defending - Prevent Forward Play"
+    ],
+    "gameModel": {
+      "attackingOrganization": "Break lines through, around, or over. Move beyond, below, and beside the ball to create options. Be composed, fast, and sharp.",
+      "defensiveOrganization": "Press high when we can. In our half, stay compact. In the box: fill space, find your mark, and clear big. Everyone defends.",
+      "defensiveTransition": "React fast, recover hard, regroup quickly. Win it back or slow them down.",
+      "attackingTransition": "Secure the ball first. If the break is on, go fast. If not, keep it and build with control."
+
+    }
   }
 ]
-
