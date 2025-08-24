@@ -94,13 +94,13 @@
     "opponent": "Keystone",
     "date": "Aug 24, 2025",
     "images": {
-      "lineup": "",
+      "lineup": "images/GAME-04.png",
       "opponentSOP": "images/OPPONENT-433.jpeg",
       "doFullPress": "images/4231-433-HIGH-PRESS.jpeg",
       "doMidLowPress": "images/442-LOW-MID-BLOCK.jpeg",
       "aoBuild": "images/325-433-II-BUILD.jpeg"
     },
-    "availablePlayers": [],
+    "availablePlayers": ["Xavier","Ty","Adrian","Jake"],
     "trainingRecap": [
       "Defending - Prevent Forward Play by denying passing lanes",
       "Performance Mentality – 3Ps of Pressing; Press with Pace, Power and Purpose."
