@@ -32,7 +32,6 @@
       // Helper: find game for a given date
       function findGameForDate(games, date) {
         return games.find(g => {
-          // Accept both "Aug 14, 2025" and "2025-08-14" formats
           const gameDate = new Date(g.date);
           return gameDate.toDateString() === date.toDateString();
         });
@@ -42,8 +41,7 @@
       function getAllWeekends(startDate, endDate) {
         const weekends = [];
         let d = new Date(startDate);
-        // Set to Saturday of the first week
-        d.setDate(d.getDate() + (6 - d.getDay()));
+        d.setDate(d.getDate() + (6 - d.getDay())); // move to Saturday
         while (d <= endDate) {
           const saturday = new Date(d);
           const sunday = new Date(d);
@@ -63,17 +61,26 @@
       const seasonEnd = new Date(Math.max(...allDates));
       const weekends = getAllWeekends(seasonStart, seasonEnd);
 
+      // Build a lookup for extra game details
+      const gameMap = {};
+      games.forEach(g => gameMap[g.id] = g);
+
       // Render
       const calendar = document.getElementById('calendar');
       calendar.innerHTML = weekends.map(({saturday, sunday}) => {
-        const satGame = findGameForDate(meta, saturday);
-        const sunGame = findGameForDate(meta, sunday);
+        const satGame = meta.find(g => new Date(g.date).toDateString() === saturday.toDateString());
+        const sunGame = meta.find(g => new Date(g.date).toDateString() === sunday.toDateString());
+        const satDetails = satGame ? { ...satGame, ...gameMap[satGame.id] } : null;
+        const sunDetails = sunGame ? { ...sunGame, ...gameMap[sunGame.id] } : null;
         const header = `${saturday.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}, ${sunday.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}`;
         return `
           <h2 class="month-header">${header}</h2>
           <div class="game-grid">
-            ${[satGame, sunGame].map(game => game ? `
+            ${[satDetails, sunDetails].map(game => game ? `
               <div class="game-card">
+                ${game.scorers && game.scorers.length ? `
+                  <div class="scorers-list">${game.scorers.join(', ')}</div>
+                ` : ''}
                 <div class="game-date">${game.date || ''}</div>
                 <h2>${game.opponent ? 'vs ' + game.opponent : ''}</h2>
                 <div>${game.competition || ''}</div>
