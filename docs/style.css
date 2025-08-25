@@ -123,6 +123,12 @@ h1, h2 {
   color: #888 !important;
 }
 
+/* Style for No Game card */
+.empty-card h2 {
+  color: #c00;
+  opacity: 0.7;
+}
+
 @media (max-width: 768px) {
   body {
     padding: 10px;
