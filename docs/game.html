@@ -35,34 +35,25 @@
 
         document.getElementById("game-section").innerHTML = `
           <h2>vs ${game.opponent} – ${game.date}</h2>
-          <div class="image-pair-row">
-            <div class="image-block">
-              <h3 class="image-title black-header">Lineup</h3>
-              ${game.images.lineup ? `<img src="${game.images.lineup}" alt="Lineup" />` : ""}
-            </div>
-            <div class="image-block">
-              <h3 class="image-title black-header">Opponent System of Play</h3>
-              ${game.images.opponentSOP ? `<img src="${game.images.opponentSOP}" alt="Opponent SOP" />` : ""}
-            </div>
+          <div class="image-block">
+            <div class="image-title lineup-header">Lineup</div>
+            ${game.images.lineup ? `<img src="${game.images.lineup}" alt="Lineup" />` : ""}
           </div>
-          <div class="image-pair-row">
-            <div class="image-block">
-              <h3 class="image-title red-header">DO – High Press</h3>
-              ${game.images.doFullPress ? `<img src="${game.images.doFullPress}" alt="High Press" />` : ""}
-            </div>
-            <div class="image-block">
-              <h3 class="image-title red-header">DO – Mid/Low Press</h3>
-              ${game.images.doMidLowPress ? `<img src="${game.images.doMidLowPress}" alt="Mid/Low Press" />` : ""}
-            </div>
+          <div class="image-block">
+            <div class="image-title opponent-header">Opponent System of Play</div>
+            ${game.images.opponentSOP ? `<img src="${game.images.opponentSOP}" alt="Opponent SOP" />` : ""}
           </div>
-          <div class="image-pair-row">
-            <div class="image-block">
-              <h3 class="image-title green-header">AO – Build</h3>
-              ${game.images.aoBuild ? `<img src="${game.images.aoBuild}" alt="Build" />` : ""}
-            </div>
-            <div class="image-block">
-              <!-- Empty block to keep AO – Build sizing consistent -->
-            </div>
+          <div class="image-block">
+            <div class="image-title do-header">DO – High Press</div>
+            ${game.images.doFullPress ? `<img src="${game.images.doFullPress}" alt="High Press" />` : ""}
+          </div>
+          <div class="image-block">
+            <div class="image-title do-header">DO – Mid/Low Press</div>
+            ${game.images.doMidLowPress ? `<img src="${game.images.doMidLowPress}" alt="Mid/Low Press" />` : ""}
+          </div>
+          <div class="image-block">
+            <div class="image-title ao-header">AO – Build</div>
+            ${game.images.aoBuild ? `<img src="${game.images.aoBuild}" alt="Build" />` : ""}
           </div>
           <div class="section available-players-section">
             <h3>Available Players</h3>
