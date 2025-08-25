@@ -19,7 +19,6 @@ body {
   border-radius: 8px;
 }
 
-/* Consistent header style for main and game pages */
 h1, h2 {
   color: #1a73e8;
   font-weight: 700;
@@ -37,7 +36,6 @@ h1, h2 {
   letter-spacing: 1px;
 }
 
-/* CHANGED: 2 cards per row for desktop */
 .game-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -53,11 +51,26 @@ h1, h2 {
   box-shadow: 0 2px 8px rgba(26, 115, 232, 0.08);
   transition: transform 0.2s, box-shadow 0.2s;
   font-size: 0.95rem;
+  position: relative;
 }
 
 .game-card:hover {
   transform: translateY(-4px) scale(1.03);
   box-shadow: 0 6px 18px rgba(26, 115, 232, 0.18);
+}
+
+.scorers-list {
+  position: absolute;
+  top: 12px;
+  right: 18px;
+  background: #e3eafc;
+  color: #1a73e8;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(26,115,232,0.08);
+  z-index: 2;
 }
 
 .game-date {
@@ -86,136 +99,6 @@ h1, h2 {
   background: #0c5ec3;
 }
 
-/* Section styles for dashboard details */
-.available-players-section {
-  background: #f3f4f7;
-  border-left: 6px solid #4caf50;
-  margin: 24px 0;
-  padding: 16px;
-  border-radius: 8px;
-}
-
-.training-recap-section {
-  background: #f3f4f7;
-  border-left: 6px solid #ff9800;
-  margin: 24px 0;
-  padding: 16px;
-  border-radius: 8px;
-}
-
-.team-focus-section {
-  background: #f3f4f7;
-  border-left: 6px solid #b0b4bb;
-  margin: 24px 0;
-  padding: 16px;
-  border-radius: 8px;
-}
-
-.video-review-section {
-  background: #f3f4f7;
-  border-left: 6px solid #2196f3;
-  margin: 24px 0;
-  padding: 16px;
-  border-radius: 8px;
-}
-.video-review-section a {
-  color: #1a73e8;
-  font-weight: 600;
-  text-decoration: underline;
-}
-.video-review-section ul {
-  padding-left: 18px;
-}
-
-/* Compact image size for game cards */
-.game-card img {
-  max-width: 120px;
-  max-height: 90px;
-  width: auto;
-  height: auto;
-  border-radius: 8px;
-  border: 1px solid #ddd;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
-  margin-bottom: 8px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Improved image layout and size for game details page */
-.image-pair-row {
-  display: flex;
-  flex-wrap: nowrap;
-  gap: 40px;
-  margin-bottom: 30px;
-  justify-content: center;
-  align-items: flex-start;
-}
-
-.image-block {
-  flex: 1 1 0;
-  min-width: 320px;
-  max-width: 480px;
-  text-align: center;
-}
-
-.image-block img {
-  width: 100%;
-  max-width: 420px;
-  height: auto;
-  object-fit: contain;
-  border-radius: 8px;
-  border: 1px solid #ddd;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
-  margin-bottom: 8px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Modern image header style */
-.image-title {
-  font-size: 1.15rem;
-  font-weight: 600;
-  margin-bottom: 10px;
-  letter-spacing: 0.5px;
-  border-bottom: 2px solid #e3eafc;
-  padding-bottom: 4px;
-  background: #f7faff;
-  border-radius: 6px 6px 0 0;
-  box-shadow: 0 1px 4px rgba(26, 115, 232, 0.04);
-}
-
-/* Lightbox styles */
-#lightbox-overlay {
-  position: fixed;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background: rgba(0,0,0,0.8);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 9999;
-}
-
-#lightbox-overlay img {
-  max-width: 90vw;
-  max-height: 80vh;
-  border-radius: 12px;
-  box-shadow: 0 8px 32px rgba(0,0,0,0.5);
-}
-
-#lightbox-close {
-  position: absolute;
-  top: 32px;
-  right: 48px;
-  color: #fff;
-  font-size: 3rem;
-  font-weight: bold;
-  cursor: pointer;
-  z-index: 10000;
-}
-
-/* Formation and score styles for game cards */
 .game-meta {
   display: flex;
   justify-content: space-between;
@@ -225,19 +108,19 @@ h1, h2 {
 }
 .formation {
   font-weight: 600;
-  color: inherit; /* Use normal font color */
+  color: inherit;
 }
 .score {
   font-weight: 600;
 }
 .score-win {
-  color: #2ecc40 !important; /* green */
+  color: #2ecc40 !important;
 }
 .score-lose {
-  color: #c00 !important;    /* red */
+  color: #c00 !important;
 }
 .score-draw {
-  color: #888 !important;    /* gray */
+  color: #888 !important;
 }
 
 @media (max-width: 768px) {
@@ -254,7 +137,6 @@ h1, h2 {
     margin-bottom: 10px;
     padding-bottom: 2px;
   }
-  /* CHANGED: 1 card per row for mobile */
   .game-grid {
     grid-template-columns: 1fr;
     gap: 16px;
@@ -263,17 +145,10 @@ h1, h2 {
     font-size: 0.9rem;
     padding: 10px;
   }
-  .image-block {
-    min-width: 120px;
-    max-width: 100%;
-  }
-  .image-block img {
-    max-width: 100%;
-    width: 100%;
-  }
-  .image-title {
-    font-size: 1rem;
-    margin-bottom: 6px;
-    padding-bottom: 2px;
+  .scorers-list {
+    top: 8px;
+    right: 10px;
+    font-size: 0.8rem;
+    padding: 3px 7px;
   }
 }
