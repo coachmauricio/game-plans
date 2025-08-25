@@ -129,6 +129,11 @@ h1, h2 {
 }
 
 /* Proper image size for game details page */
+.image-block {
+  max-width: 480px;
+  margin: 0 auto 32px auto;
+  text-align: center;
+}
 .image-block img {
   width: 100%;
   max-width: 420px;
@@ -141,6 +146,77 @@ h1, h2 {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* Colored headers for images */
+.image-title {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
+  padding-bottom: 4px;
+  border-radius: 6px 6px 0 0;
+  box-shadow: 0 1px 4px rgba(26, 115, 232, 0.04);
+  background: #f7faff;
+  border-bottom: 2px solid #e3eafc;
+}
+.lineup-header {
+  background: #1a73e8;
+  color: #fff;
+  border-bottom: 2px solid #1565c0;
+}
+.opponent-header {
+  background: #ff9800;
+  color: #fff;
+  border-bottom: 2px solid #f57c00;
+}
+.do-header {
+  background: #c62828;
+  color: #fff;
+  border-bottom: 2px solid #b71c1c;
+}
+.ao-header {
+  background: #43a047;
+  color: #fff;
+  border-bottom: 2px solid #388e3c;
+}
+
+/* Info sections with colored left border */
+.available-players-section {
+  background: #f3f4f7;
+  border-left: 6px solid #4caf50;
+  margin: 24px 0;
+  padding: 16px;
+  border-radius: 8px;
+}
+.training-recap-section {
+  background: #f3f4f7;
+  border-left: 6px solid #ff9800;
+  margin: 24px 0;
+  padding: 16px;
+  border-radius: 8px;
+}
+.team-focus-section {
+  background: #f3f4f7;
+  border-left: 6px solid #b0b4bb;
+  margin: 24px 0;
+  padding: 16px;
+  border-radius: 8px;
+}
+.video-review-section {
+  background: #f3f4f7;
+  border-left: 6px solid #2196f3;
+  margin: 24px 0;
+  padding: 16px;
+  border-radius: 8px;
+}
+.video-review-section a {
+  color: #1a73e8;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.video-review-section ul {
+  padding-left: 18px;
 }
 
 /* Style for No Game card */
