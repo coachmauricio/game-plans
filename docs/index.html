@@ -72,7 +72,8 @@
         const sunGame = meta.find(g => new Date(g.date).toDateString() === sunday.toDateString());
         const satDetails = satGame ? { ...satGame, ...gameMap[satGame.id] } : null;
         const sunDetails = sunGame ? { ...sunGame, ...gameMap[sunGame.id] } : null;
-        const header = `${saturday.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}, ${sunday.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}`;
+        // Short date format for header
+        const header = `${saturday.toLocaleDateString('en-US', { year: '2-digit', month: 'numeric', day: 'numeric' })} - ${sunday.toLocaleDateString('en-US', { year: '2-digit', month: 'numeric', day: 'numeric' })}`;
         return `
           <h2 class="month-header">${header}</h2>
           <div class="game-grid">
