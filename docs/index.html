@@ -20,20 +20,26 @@
       const gameMap = {};
       games.forEach(g => gameMap[g.id] = g);
 
-      // Group games by month using meta
-      const months = {};
+      // Helper: get the Saturday of the week for a given date string
+      function getWeekendKey(dateStr) {
+        // Parse date (assumes format like "Aug 14, 2025")
+        const d = new Date(dateStr);
+        if (isNaN(d)) return dateStr; // fallback if parsing fails
+        const day = d.getDay();
+        const saturday = new Date(d);
+        saturday.setDate(d.getDate() - day + 6); // 6 = Saturday
+        return saturday.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+      }
+
+      // Group games by weekend (Saturday)
+      const weekends = {};
       meta.forEach(game => {
-        // Try to get date from meta, else from games.json
         const details = gameMap[game.id] || {};
         const date = game.date || details.date || '';
-        // Parse month from date
-        let month = '';
-        if (date) {
-          const [monthName, , year] = date.split(/[\s,]+/);
-          month = `${monthName} ${year}`;
-        }
-        if (!months[month]) months[month] = [];
-        months[month].push({ ...game, ...details, date });
+        if (!date) return;
+        const weekendKey = getWeekendKey(date);
+        if (!weekends[weekendKey]) weekends[weekendKey] = [];
+        weekends[weekendKey].push({ ...game, ...details, date });
       });
 
       // Helper to color score
@@ -51,8 +57,8 @@
 
       // Render
       const calendar = document.getElementById('calendar');
-      calendar.innerHTML = Object.entries(months).map(([month, games]) => `
-        <h2 class="month-header">${month}</h2>
+      calendar.innerHTML = Object.entries(weekends).map(([weekend, games]) => `
+        <h2 class="month-header">${weekend}</h2>
         <div class="game-grid">
           ${games.map(game => {
             const score = game.score || '';
