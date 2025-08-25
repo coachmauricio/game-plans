@@ -125,8 +125,10 @@ h1, h2 {
 
 /* Style for No Game card */
 .empty-card h2 {
-  color: #c00;
-  opacity: 0.7;
+  color: #ff9800; /* orange */
+  opacity: 1;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 
 @media (max-width: 768px) {
