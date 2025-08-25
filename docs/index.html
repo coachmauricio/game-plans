@@ -84,9 +84,9 @@
                 ` : ''}
                 <div class="game-date">${game.date || ''}</div>
                 <h2>${game.opponent ? 'vs ' + game.opponent : ''}</h2>
+                ${game.formation ? `<div class="formation">${game.formation}</div>` : ''}
                 <div>${game.competition || ''}</div>
                 <div class="game-meta">
-                  <span class="formation">${game.formation || ''}</span>
                   <span class="score ${scoreClass(game.score || '')}">${game.score || ''}</span>
                 </div>
                 <a href="game.html?id=${game.id}" class="view-link">View Plan</a>
