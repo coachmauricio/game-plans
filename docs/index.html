@@ -121,12 +121,13 @@
         }
       });
 
-      // Scroll to first highlighted game card
+      // Scroll to first highlighted game card (with delay for iPad/Safari)
       const firstHighlighted = document.querySelector('.game-card.highlight-week');
       if (firstHighlighted) {
-        firstHighlighted.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        setTimeout(() => {
+          firstHighlighted.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }, 300); // 300ms delay helps on iPad/Safari
       }
     });
   </script>
 </body>
-</html>
