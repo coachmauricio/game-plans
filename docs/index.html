@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <title>Game Plan 11B – Season 25-26</title>
   <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
   <header class="main-header">
@@ -78,7 +79,7 @@
           <h2 class="month-header">${header}</h2>
           <div class="game-grid">
             ${[satDetails, sunDetails].map(game => game ? `
-              <div class="game-card">
+              <div class="game-card" data-date="${game.date}">
                 ${game.scorers && game.scorers.length ? `
                   <div class="scorers-list">${game.scorers.join(', ')}</div>
                 ` : ''}
@@ -100,6 +101,31 @@
           </div>
         `;
       }).join('');
+
+      // Highlight current week
+      const today = new Date();
+      const startOfWeek = new Date(today);
+      startOfWeek.setDate(today.getDate() - today.getDay()); // Sunday
+      startOfWeek.setHours(0,0,0,0);
+      const endOfWeek = new Date(today);
+      endOfWeek.setDate(today.getDate() + (6 - today.getDay())); // Saturday
+      endOfWeek.setHours(23,59,59,999);
+
+      document.querySelectorAll('.game-card[data-date]').forEach(card => {
+        const gameDateStr = card.getAttribute('data-date');
+        if (gameDateStr) {
+          const gameDate = new Date(gameDateStr);
+          if (gameDate >= startOfWeek && gameDate <= endOfWeek) {
+            card.classList.add('highlight-week');
+          }
+        }
+      });
+
+      // Scroll to first highlighted game card
+      const firstHighlighted = document.querySelector('.game-card.highlight-week');
+      if (firstHighlighted) {
+        firstHighlighted.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
     });
   </script>
 </body>
