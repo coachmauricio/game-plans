@@ -294,6 +294,10 @@ h1, h2 {
     max-width: 100%;
     width: 100%;
   }
+  .highlight-week {
+  border: 3px solid #1a73e8;
+  box-shadow: 0 0 12px #1a73e855;
+  }
   #lightbox-close {
     top: 12px;
     right: 18px;
