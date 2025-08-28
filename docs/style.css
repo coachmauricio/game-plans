@@ -227,6 +227,32 @@ h1, h2 {
   letter-spacing: 1px;
 }
 
+/* Lightbox overlay for image pop-out */
+#lightbox-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.85);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+#lightbox-overlay img {
+  max-width: 90vw;
+  max-height: 90vh;
+  border-radius: 12px;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.3);
+}
+#lightbox-close {
+  position: absolute;
+  top: 32px;
+  right: 48px;
+  font-size: 2.5rem;
+  color: #fff;
+  cursor: pointer;
+  z-index: 10000;
+}
+
 @media (max-width: 768px) {
   body {
     padding: 10px;
@@ -262,5 +288,10 @@ h1, h2 {
   .image-block img {
     max-width: 100%;
     width: 100%;
+  }
+  #lightbox-close {
+    top: 12px;
+    right: 18px;
+    font-size: 2rem;
   }
 }
