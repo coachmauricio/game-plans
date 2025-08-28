@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <title>Game Plan</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -10,7 +11,7 @@
   <section class="game-section" id="game-section">Loading...</section>
 
   <!-- Lightbox overlay for image pop-out -->
-  <div id="lightbox-overlay" style="display:none;">
+  <div id="lightbox-overlay">
     <span id="lightbox-close">&times;</span>
     <img id="lightbox-img" src="" alt="Large view" />
   </div>
@@ -90,17 +91,27 @@
     }
     loadGame();
 
-    // Lightbox effect for images
+    // Lightbox effect for images (desktop & mobile)
     document.addEventListener("DOMContentLoaded", function() {
+      const overlay = document.getElementById("lightbox-overlay");
+      const overlayImg = document.getElementById("lightbox-img");
+      const closeBtn = document.getElementById("lightbox-close");
+
       document.body.addEventListener("click", function(e) {
         if (e.target.tagName === "IMG" && e.target.closest(".image-block")) {
-          document.getElementById("lightbox-img").src = e.target.src;
-          document.getElementById("lightbox-overlay").style.display = "flex";
+          overlayImg.src = e.target.src;
+          overlay.classList.add("active");
         }
         if (e.target.id === "lightbox-close" || e.target.id === "lightbox-overlay") {
-          document.getElementById("lightbox-overlay").style.display = "none";
-          document.getElementById("lightbox-img").src = "";
+          overlay.classList.remove("active");
+          overlayImg.src = "";
         }
+      });
+
+      // Mobile touch support
+      overlay.addEventListener("touchstart", function(e) {
+        overlay.classList.remove("active");
+        overlayImg.src = "";
       });
     });
   </script>
