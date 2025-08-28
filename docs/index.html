@@ -121,13 +121,23 @@
         }
       });
 
-      // Scroll to first highlighted game card (with delay for iPad/Safari)
-      const firstHighlighted = document.querySelector('.game-card.highlight-week');
-      if (firstHighlighted) {
-        setTimeout(() => {
-          firstHighlighted.scrollIntoView({ behavior: 'smooth', block: 'center' });
-        }, 300); // 300ms delay helps on iPad/Safari
+      // Scroll to current week's header at top (with delay for iPad/Safari)
+      const currentWeekend = weekends.find(({saturday, sunday}) => {
+        return (saturday >= startOfWeek && saturday <= endOfWeek) ||
+               (sunday >= startOfWeek && sunday <= endOfWeek);
+      });
+
+      if (currentWeekend) {
+        const headerText = `${currentWeekend.saturday.toLocaleDateString('en-US', { year: '2-digit', month: 'numeric', day: 'numeric' })} - ${currentWeekend.sunday.toLocaleDateString('en-US', { year: '2-digit', month: 'numeric', day: 'numeric' })}`;
+        const headers = Array.from(document.querySelectorAll('.month-header'));
+        const targetHeader = headers.find(h => h.textContent.trim() === headerText);
+        if (targetHeader) {
+          setTimeout(() => {
+            targetHeader.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }, 300); // 300ms delay helps on iPad/Safari
+        }
       }
     });
   </script>
 </body>
+</html>
