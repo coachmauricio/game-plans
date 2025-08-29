@@ -22,7 +22,8 @@
       "defensiveOrganization": "Press high when we can. In our half, stay compact. In the box: fill space, find your mark, and clear big. Everyone defends.",
       "defensiveTransition": "React fast, recover hard, regroup quickly. Win it back or slow them down.",
       "attackingTransition": "Secure the ball first. If the break is on, go fast. If not, keep it and build with control."
-    }
+    },
+    "videoReview": []
   },
   {
     "id": "FCC-2025-08-17",
@@ -86,7 +87,6 @@
       { "link": "https://app.veo.co/matches/20250816-2011-cup-boys-gold-u15-vs-fcc-25057a22/#t=44:12", "note": "Good build-up —finding the free player and looking to play in behind the defenders." },
       { "link": "https://app.veo.co/matches/20250816-2011-cup-boys-gold-u15-vs-fcc-25057a22/#t=27:07", "note": "We can’t allow a 2v1 on corners—let’s make sure we match numbers and don’t get caught in an underload" },
       { "link": "https://app.veo.co/matches/20250816-2011-cup-boys-gold-u15-vs-fcc-25057a22/#t=84:51", "note": "We allowed them to play through, but great recognition from our CM to step up and press, stopping the play" }
-
     ]
   },
   {
@@ -115,5 +115,469 @@
       { "link": "", "note": "" },
       { "link": "", "note": "" }
     ]
+  },
+  {
+    "id": "Hoosier-FC-2025-08-30",
+    "opponent": "Hoosier FC",
+    "date": "Aug 30, 2025",
+    "images": {
+      "lineup": "",
+      "opponentSOP": "images/OPPONENT-352.png",
+      "doFullPress": "images/3512-3421-HIGH-PRESS.png",
+      "doMidLowPress": "images/532-5412-LOW-PRESS.png",
+      "aoBuild": "images/3421-3412-BUILD.png"
+    },
+    "availablePlayers": [],
+    "trainingRecap": [
+      "Attacking - Break the lines: turn forward or combine (2v1 / third man); Lose it? React now"
+    ],
+    "gameModel": {
+      "attackingOrganization": "Break lines through, around, or over. Move beyond, below, and beside the ball to create options. Be composed, fast, and sharp.",
+      "defensiveOrganization": "Press high when we can. In our half, stay compact. In the box: fill space, find your mark, and clear big. Everyone defends.",
+      "defensiveTransition": "React fast, recover hard, regroup quickly. Win it back or slow them down.",
+      "attackingTransition": "Secure the ball first. If the break is on, go fast. If not, keep it and build with control."
+    },
+    "videoReview": []
+  },
+  {
+    "id": "Vardar-2025-09-06",
+    "opponent": "Vardar Soccer Club",
+    "date": "Sep 6, 2025",
+    "images": {
+      "lineup": "",
+      "opponentSOP": "",
+      "doFullPress": "",
+      "doMidLowPress": "",
+      "aoBuild": ""
+    },
+    "availablePlayers": [],
+    "trainingRecap": [],
+    "gameModel": {
+      "attackingOrganization": "Break lines through, around, or over. Move beyond, below, and beside the ball to create options. Be composed, fast, and sharp.",
+      "defensiveOrganization": "Press high when we can. In our half, stay compact. In the box: fill space, find your mark, and clear big. Everyone defends.",
+      "defensiveTransition": "React fast, recover hard, regroup quickly. Win it back or slow them down.",
+      "attackingTransition": "Secure the ball first. If the break is on, go fast. If not, keep it and build with control."
+    },
+    "videoReview": []
+  },
+  {
+    "id": "Michigan-Futbol-Academy-2025-09-07",
+    "opponent": "Michigan Futbol Academy",
+    "date": "Sep 7, 2025",
+    "images": {
+      "lineup": "",
+      "opponentSOP": "",
+      "doFullPress": "",
+      "doMidLowPress": "",
+      "aoBuild": ""
+    },
+    "availablePlayers": [],
+    "trainingRecap": [],
+    "gameModel": {
+      "attackingOrganization": "Break lines through, around, or over. Move beyond, below, and beside the ball to create options. Be composed, fast, and sharp.",
+      "defensiveOrganization": "Press high when we can. In our half, stay compact. In the box: fill space, find your mark, and clear big. Everyone defends.",
+      "defensiveTransition": "React fast, recover hard, regroup quickly. Win it back or slow them down.",
+      "attackingTransition": "Secure the ball first. If the break is on, go fast. If not, keep it and build with control."
+    },
+    "videoReview": []
+  },
+  {
+    "id": "Bavarian-United-SC-2025-09-13",
+    "opponent": "Bavarian United SC",
+    "date": "Sep 13, 2025",
+    "images": {
+      "lineup": "",
+      "opponentSOP": "",
+      "doFullPress": "",
+      "doMidLowPress": "",
+      "aoBuild": ""
+    },
+    "availablePlayers": [],
+    "trainingRecap": [],
+    "gameModel": {
+      "attackingOrganization": "Break lines through, around, or over. Move beyond, below, and beside the ball to create options. Be composed, fast, and sharp.",
+      "defensiveOrganization": "Press high when we can. In our half, stay compact. In the box: fill space, find your mark, and clear big. Everyone defends.",
+      "defensiveTransition": "React fast, recover hard, regroup quickly. Win it back or slow them down.",
+      "attackingTransition": "Secure the ball first. If the break is on, go fast. If not, keep it and build with control."
+    },
+    "videoReview": []
+  },
+  {
+    "id": "Indy-Eleven-2025-09-14",
+    "opponent": "Indy Eleven",
+    "date": "Sep 14, 2025",
+    "images": {
+      "lineup": "",
+      "opponentSOP": "",
+      "doFullPress": "",
+      "doMidLowPress": "",
+      "aoBuild": ""
+    },
+    "availablePlayers": [],
+    "trainingRecap": [],
+    "gameModel": {
+      "attackingOrganization": "Break lines through, around, or over. Move beyond, below, and beside the ball to create options. Be composed, fast, and sharp.",
+      "defensiveOrganization": "Press high when we can. In our half, stay compact. In the box: fill space, find your mark, and clear big. Everyone defends.",
+      "defensiveTransition": "React fast, recover hard, regroup quickly. Win it back or slow them down.",
+      "attackingTransition": "Secure the ball first. If the break is on, go fast. If not, keep it and build with control."
+    },
+    "videoReview": []
+  },
+  {
+    "id": "Midwest-United-FC-2025-09-20",
+    "opponent": "Midwest United FC",
+    "date": "Sep 20, 2025",
+    "images": {
+      "lineup": "",
+      "opponentSOP": "",
+      "doFullPress": "",
+      "doMidLowPress": "",
+      "aoBuild": ""
+    },
+    "availablePlayers": [],
+    "trainingRecap": [],
+    "gameModel": {
+      "attackingOrganization": "Break lines through, around, or over. Move beyond, below, and beside the ball to create options. Be composed, fast, and sharp.",
+      "defensiveOrganization": "Press high when we can. In our half, stay compact. In the box: fill space, find your mark, and clear big. Everyone defends.",
+      "defensiveTransition": "React fast, recover hard, regroup quickly. Win it back or slow them down.",
+      "attackingTransition": "Secure the ball first. If the break is on, go fast. If not, keep it and build with control."
+    },
+    "videoReview": []
+  },
+  {
+    "id": "Sockers-FC-Chicago-2025-10-04",
+    "opponent": "Sockers FC Chicago",
+    "date": "Oct 4, 2025",
+    "images": {
+      "lineup": "",
+      "opponentSOP": "",
+      "doFullPress": "",
+      "doMidLowPress": "",
+      "aoBuild": ""
+    },
+    "availablePlayers": [],
+    "trainingRecap": [],
+    "gameModel": {
+      "attackingOrganization": "Break lines through, around, or over. Move beyond, below, and beside the ball to create options. Be composed, fast, and sharp.",
+      "defensiveOrganization": "Press high when we can. In our half, stay compact. In the box: fill space, find your mark, and clear big. Everyone defends.",
+      "defensiveTransition": "React fast, recover hard, regroup quickly. Win it back or slow them down.",
+      "attackingTransition": "Secure the ball first. If the break is on, go fast. If not, keep it and build with control."
+    },
+    "videoReview": []
+  },
+  {
+    "id": "Michigan-Wolves-2025-10-18",
+    "opponent": "Michigan Wolves",
+    "date": "Oct 18, 2025",
+    "images": {
+      "lineup": "",
+      "opponentSOP": "",
+      "doFullPress": "",
+      "doMidLowPress": "",
+      "aoBuild": ""
+    },
+    "availablePlayers": [],
+    "trainingRecap": [],
+    "gameModel": {
+      "attackingOrganization": "Break lines through, around, or over. Move beyond, below, and beside the ball to create options. Be composed, fast, and sharp.",
+      "defensiveOrganization": "Press high when we can. In our half, stay compact. In the box: fill space, find your mark, and clear big. Everyone defends.",
+      "defensiveTransition": "React fast, recover hard, regroup quickly. Win it back or slow them down.",
+      "attackingTransition": "Secure the ball first. If the break is on, go fast. If not, keep it and build with control."
+    },
+    "videoReview": []
+  },
+  {
+    "id": "Vardar-2025-10-19",
+    "opponent": "Vardar Soccer Club",
+    "date": "Oct 19, 2025",
+    "images": {
+      "lineup": "",
+      "opponentSOP": "",
+      "doFullPress": "",
+      "doMidLowPress": "",
+      "aoBuild": ""
+    },
+    "availablePlayers": [],
+    "trainingRecap": [],
+    "gameModel": {
+      "attackingOrganization": "Break lines through, around, or over. Move beyond, below, and beside the ball to create options. Be composed, fast, and sharp.",
+      "defensiveOrganization": "Press high when we can. In our half, stay compact. In the box: fill space, find your mark, and clear big. Everyone defends.",
+      "defensiveTransition": "React fast, recover hard, regroup quickly. Win it back or slow them down.",
+      "attackingTransition": "Secure the ball first. If the break is on, go fast. If not, keep it and build with control."
+    },
+    "videoReview": []
+  },
+  {
+    "id": "Midwest-United-FC-2025-11-02",
+    "opponent": "Midwest United FC",
+    "date": "Nov 2, 2025",
+    "images": {
+      "lineup": "",
+      "opponentSOP": "",
+      "doFullPress": "",
+      "doMidLowPress": "",
+      "aoBuild": ""
+    },
+    "availablePlayers": [],
+    "trainingRecap": [],
+    "gameModel": {
+      "attackingOrganization": "Break lines through, around, or over. Move beyond, below, and beside the ball to create options. Be composed, fast, and sharp.",
+      "defensiveOrganization": "Press high when we can. In our half, stay compact. In the box: fill space, find your mark, and clear big. Everyone defends.",
+      "defensiveTransition": "React fast, recover hard, regroup quickly. Win it back or slow them down.",
+      "attackingTransition": "Secure the ball first. If the break is on, go fast. If not, keep it and build with control."
+    },
+    "videoReview": []
+  },
+  {
+    "id": "Chicago-FC-United-2025-11-16",
+    "opponent": "Chicago FC United",
+    "date": "Nov 16, 2025",
+    "images": {
+      "lineup": "",
+      "opponentSOP": "",
+      "doFullPress": "",
+      "doMidLowPress": "",
+      "aoBuild": ""
+    },
+    "availablePlayers": [],
+    "trainingRecap": [],
+    "gameModel": {
+      "attackingOrganization": "Break lines through, around, or over. Move beyond, below, and beside the ball to create options. Be composed, fast, and sharp.",
+      "defensiveOrganization": "Press high when we can. In our half, stay compact. In the box: fill space, find your mark, and clear big. Everyone defends.",
+      "defensiveTransition": "React fast, recover hard, regroup quickly. Win it back or slow them down.",
+      "attackingTransition": "Secure the ball first. If the break is on, go fast. If not, keep it and build with control."
+    },
+    "videoReview": []
+  },
+  {
+    "id": "Hoosier-Premier-2026-02-28",
+    "opponent": "Hoosier Premier",
+    "date": "Feb 28, 2026",
+    "images": {
+      "lineup": "",
+      "opponentSOP": "",
+      "doFullPress": "",
+      "doMidLowPress": "",
+      "aoBuild": ""
+    },
+    "availablePlayers": [],
+    "trainingRecap": [],
+    "gameModel": {
+      "attackingOrganization": "Break lines through, around, or over. Move beyond, below, and beside the ball to create options. Be composed, fast, and sharp.",
+      "defensiveOrganization": "Press high when we can. In our half, stay compact. In the box: fill space, find your mark, and clear big. Everyone defends.",
+      "defensiveTransition": "React fast, recover hard, regroup quickly. Win it back or slow them down.",
+      "attackingTransition": "Secure the ball first. If the break is on, go fast. If not, keep it and build with control."
+    },
+    "videoReview": []
+  },
+  {
+    "id": "Michigan-Wolves-2026-03-07",
+    "opponent": "Michigan Wolves",
+    "date": "Mar 7, 2026",
+    "images": {
+      "lineup": "",
+      "opponentSOP": "",
+      "doFullPress": "",
+      "doMidLowPress": "",
+      "aoBuild": ""
+    },
+    "availablePlayers": [],
+    "trainingRecap": [],
+    "gameModel": {
+      "attackingOrganization": "Break lines through, around, or over. Move beyond, below, and beside the ball to create options. Be composed, fast, and sharp.",
+      "defensiveOrganization": "Press high when we can. In our half, stay compact. In the box: fill space, find your mark, and clear big. Everyone defends.",
+      "defensiveTransition": "React fast, recover hard, regroup quickly. Win it back or slow them down.",
+      "attackingTransition": "Secure the ball first. If the break is on, go fast. If not, keep it and build with control."
+    },
+    "videoReview": []
+  },
+  {
+    "id": "Michigan-Jaguars-2026-03-14",
+    "opponent": "Michigan Jaguars",
+    "date": "Mar 14, 2026",
+    "images": {
+      "lineup": "",
+      "opponentSOP": "",
+      "doFullPress": "",
+      "doMidLowPress": "",
+      "aoBuild": ""
+    },
+    "availablePlayers": [],
+    "trainingRecap": [],
+    "gameModel": {
+      "attackingOrganization": "Break lines through, around, or over. Move beyond, below, and beside the ball to create options. Be composed, fast, and sharp.",
+      "defensiveOrganization": "Press high when we can. In our half, stay compact. In the box: fill space, find your mark, and clear big. Everyone defends.",
+      "defensiveTransition": "React fast, recover hard, regroup quickly. Win it back or slow them down.",
+      "attackingTransition": "Secure the ball first. If the break is on, go fast. If not, keep it and build with control."
+    },
+    "videoReview": []
+  },
+  {
+    "id": "Shattuck-St-Marys-2026-03-21",
+    "opponent": "Shattuck-St. Mary's",
+    "date": "Mar 21, 2026",
+    "images": {
+      "lineup": "",
+      "opponentSOP": "",
+      "doFullPress": "",
+      "doMidLowPress": "",
+      "aoBuild": ""
+    },
+    "availablePlayers": [],
+    "trainingRecap": [],
+    "gameModel": {
+      "attackingOrganization": "Break lines through, around, or over. Move beyond, below, and beside the ball to create options. Be composed, fast, and sharp.",
+      "defensiveOrganization": "Press high when we can. In our half, stay compact. In the box: fill space, find your mark, and clear big. Everyone defends.",
+      "defensiveTransition": "React fast, recover hard, regroup quickly. Win it back or slow them down.",
+      "attackingTransition": "Secure the ball first. If the break is on, go fast. If not, keep it and build with control."
+    },
+    "videoReview": []
+  },
+  {
+    "id": "Hoosier-Premier-2026-03-22",
+    "opponent": "Hoosier Premier",
+    "date": "Mar 22, 2026",
+    "images": {
+      "lineup": "",
+      "opponentSOP": "",
+      "doFullPress": "",
+      "doMidLowPress": "",
+      "aoBuild": ""
+    },
+    "availablePlayers": [],
+    "trainingRecap": [],
+    "gameModel": {
+      "attackingOrganization": "Break lines through, around, or over. Move beyond, below, and beside the ball to create options. Be composed, fast, and sharp.",
+      "defensiveOrganization": "Press high when we can. In our half, stay compact. In the box: fill space, find your mark, and clear big. Everyone defends.",
+      "defensiveTransition": "React fast, recover hard, regroup quickly. Win it back or slow them down.",
+      "attackingTransition": "Secure the ball first. If the break is on, go fast. If not, keep it and build with control."
+    },
+    "videoReview": []
+  },
+  {
+    "id": "Michigan-Futbol-Academy-2026-04-04",
+    "opponent": "Michigan Futbol Academy",
+    "date": "Apr 4, 2026",
+    "images": {
+      "lineup": "",
+      "opponentSOP": "",
+      "doFullPress": "",
+      "doMidLowPress": "",
+      "aoBuild": ""
+    },
+    "availablePlayers": [],
+    "trainingRecap": [],
+    "gameModel": {
+      "attackingOrganization": "Break lines through, around, or over. Move beyond, below, and beside the ball to create options. Be composed, fast, and sharp.",
+      "defensiveOrganization": "Press high when we can. In our half, stay compact. In the box: fill space, find your mark, and clear big. Everyone defends.",
+      "defensiveTransition": "React fast, recover hard, regroup quickly. Win it back or slow them down.",
+      "attackingTransition": "Secure the ball first. If the break is on, go fast. If not, keep it and build with control."
+    },
+    "videoReview": []
+  },
+  {
+    "id": "Indy-Eleven-2026-04-11",
+    "opponent": "Indy Eleven",
+    "date": "Apr 11, 2026",
+    "images": {
+      "lineup": "",
+      "opponentSOP": "",
+      "doFullPress": "",
+      "doMidLowPress": "",
+      "aoBuild": ""
+    },
+    "availablePlayers": [],
+    "trainingRecap": [],
+    "gameModel": {
+      "attackingOrganization": "Break lines through, around, or over. Move beyond, below, and beside the ball to create options. Be composed, fast, and sharp.",
+      "defensiveOrganization": "Press high when we can. In our half, stay compact. In the box: fill space, find your mark, and clear big. Everyone defends.",
+      "defensiveTransition": "React fast, recover hard, regroup quickly. Win it back or slow them down.",
+      "attackingTransition": "Secure the ball first. If the break is on, go fast. If not, keep it and build with control."
+    },
+    "videoReview": []
+  },
+  {
+    "id": "Michigan-Jaguars-2026-04-18",
+    "opponent": "Michigan Jaguars",
+    "date": "Apr 18, 2026",
+    "images": {
+      "lineup": "",
+      "opponentSOP": "",
+      "doFullPress": "",
+      "doMidLowPress": "",
+      "aoBuild": ""
+    },
+    "availablePlayers": [],
+    "trainingRecap": [],
+    "gameModel": {
+      "attackingOrganization": "Break lines through, around, or over. Move beyond, below, and beside the ball to create options. Be composed, fast, and sharp.",
+      "defensiveOrganization": "Press high when we can. In our half, stay compact. In the box: fill space, find your mark, and clear big. Everyone defends.",
+      "defensiveTransition": "React fast, recover hard, regroup quickly. Win it back or slow them down.",
+      "attackingTransition": "Secure the ball first. If the break is on, go fast. If not, keep it and build with control."
+    },
+    "videoReview": []
+  },
+  {
+    "id": "SC-Wave-2026-04-19",
+    "opponent": "SC Wave",
+    "date": "Apr 19, 2026",
+    "images": {
+      "lineup": "",
+      "opponentSOP": "",
+      "doFullPress": "",
+      "doMidLowPress": "",
+      "aoBuild": ""
+    },
+    "availablePlayers": [],
+    "trainingRecap": [],
+    "gameModel": {
+      "attackingOrganization": "Break lines through, around, or over. Move beyond, below, and beside the ball to create options. Be composed, fast, and sharp.",
+      "defensiveOrganization": "Press high when we can. In our half, stay compact. In the box: fill space, find your mark, and clear big. Everyone defends.",
+      "defensiveTransition": "React fast, recover hard, regroup quickly. Win it back or slow them down.",
+      "attackingTransition": "Secure the ball first. If the break is on, go fast. If not, keep it and build with control."
+    },
+    "videoReview": []
+  },
+  {
+    "id": "Lou-Fusz-Athletic-2026-05-02",
+    "opponent": "Lou Fusz Athletic",
+    "date": "May 2, 2026",
+    "images": {
+      "lineup": "",
+      "opponentSOP": "",
+      "doFullPress": "",
+      "doMidLowPress": "",
+      "aoBuild": ""
+    },
+    "availablePlayers": [],
+    "trainingRecap": [],
+    "gameModel": {
+      "attackingOrganization": "Break lines through, around, or over. Move beyond, below, and beside the ball to create options. Be composed, fast, and sharp.",
+      "defensiveOrganization": "Press high when we can. In our half, stay compact. In the box: fill space, find your mark, and clear big. Everyone defends.",
+      "defensiveTransition": "React fast, recover hard, regroup quickly. Win it back or slow them down.",
+      "attackingTransition": "Secure the ball first. If the break is on, go fast. If not, keep it and build with control."
+    },
+    "videoReview": []
+  },
+  {
+    "id": "St-Louis-Scott-Gallagher-2026-05-03",
+    "opponent": "St. Louis Scott Gallagher",
+    "date": "May 3, 2026",
+    "images": {
+      "lineup": "",
+      "opponentSOP": "",
+      "doFullPress": "",
+      "doMidLowPress": "",
+      "aoBuild": ""
+    },
+    "availablePlayers": [],
+    "trainingRecap": [],
+    "gameModel": {
+      "attackingOrganization": "Break lines through, around, or over. Move beyond, below, and beside the ball to create options. Be composed, fast, and sharp.",
+      "defensiveOrganization": "Press high when we can. In our half, stay compact. In the box: fill space, find your mark, and clear big. Everyone defends.",
+      "defensiveTransition": "React fast, recover hard, regroup quickly. Win it back or slow them down.",
+      "attackingTransition": "Secure the ball first. If the break is on, go fast. If not, keep it and build with control."
+    },
+    "videoReview": []
   }
 ]
