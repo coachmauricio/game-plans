@@ -121,13 +121,13 @@
     "opponent": "Hoosier FC",
     "date": "Aug 30, 2025",
     "images": {
-      "lineup": "",
+      "lineup": "images/GAME-05.png",
       "opponentSOP": "images/OPPONENT-352.png",
       "doFullPress": "images/3512-3421-HIGH-PRESS.png",
       "doMidLowPress": "images/532-5412-LOW-PRESS.png",
       "aoBuild": "images/3421-3412-BUILD.png"
     },
-    "availablePlayers": [],
+    "availablePlayers": ["Thomas","Adrian", "Amr", "Liam","Ricky"],
     "trainingRecap": [
       "Attacking - Break the lines: turn forward or combine (2v1 / third man); Lose it? React now"
     ],
