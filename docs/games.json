@@ -149,9 +149,9 @@
     "images": {
       "lineup": "",
       "opponentSOP": "images/OPPONENT-433.jpeg",
-      "doFullPress": "images/334-HIGH-PRESS-433.jpeg",
-      "doMidLowPress": "images/442-MID-LOW-PRESS-433.jpeg",
-      "aoBuild": "images/3412-BUILD.jpeg"
+      "doFullPress": "images/334-HIGH-PRESS-433.png",
+      "doMidLowPress": "images/442-MID-LOW-PRESS-433.png",
+      "aoBuild": "images/3412-BUILD.png"
     },
     "availablePlayers": [],
     "trainingRecap": [],
