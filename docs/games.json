@@ -148,10 +148,10 @@
     "date": "Sep 6, 2025",
     "images": {
       "lineup": "",
-      "opponentSOP": "",
-      "doFullPress": "",
-      "doMidLowPress": "",
-      "aoBuild": ""
+      "opponentSOP": "images/OPPONENT-433.jpeg",
+      "doFullPress": "images/334-HIGH-PRESS-433.jpeg",
+      "doMidLowPress": "images/442-MID-LOW-PRESS-433.jpeg",
+      "aoBuild": "images/3412-BUILD.jpeg"
     },
     "availablePlayers": [],
     "trainingRecap": [],
