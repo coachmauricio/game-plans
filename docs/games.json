@@ -147,14 +147,17 @@
     "opponent": "Vardar Soccer Club",
     "date": "Sep 6, 2025",
     "images": {
-      "lineup": "",
+      "lineup": "images/GAME-06.png",
       "opponentSOP": "images/OPPONENT-433.jpeg",
       "doFullPress": "images/334-HIGH-PRESS-433.png",
       "doMidLowPress": "images/442-MID-LOW-PRESS-433.png",
       "aoBuild": "images/3412-BUILD.png"
     },
-    "availablePlayers": [],
-    "trainingRecap": [],
+    "availablePlayers": ["Xavier","Liam","Owen","Adrian", "Wes","Ricky"],
+    "trainingRecap": ["Defending High Block & Press: Pressing Area - Individual Defending",
+                      "Defending High Block & Press: Blocking the opponents action",
+                      "Defending High Block & Press: Can we recover the ball trhough interception or tackling"
+    ],
     "gameModel": {
       "attackingOrganization": "Break lines through, around, or over. Move beyond, below, and beside the ball to create options. Be composed, fast, and sharp.",
       "defensiveOrganization": "Press high when we can. In our half, stay compact. In the box: fill space, find your mark, and clear big. Everyone defends.",
