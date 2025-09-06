@@ -174,13 +174,13 @@
     "opponent": "Michigan Futbol Academy",
     "date": "Sep 7, 2025",
     "images": {
-      "lineup": "",
-      "opponentSOP": "",
+      "lineup": "images/GAME-07.png",
+      "opponentSOP": "images/OPPONENT-433.jpeg",
       "doFullPress": "images/3412-HIGH-PRESS-433.png",
       "doMidLowPress": "images/3412-LOW-MID-PRESS-433.png",
       "aoBuild": "images/3412-BUILD-433.png"
     },
-    "availablePlayers": [],
+    "availablePlayers": ["Thomas", "Owen","Cam","Angelica", "Zion", "Ricky"],
     "trainingRecap": ["Defending High Block & Press: Pressing Area - Individual Defending",
                       "Defending High Block & Press: Blocking the opponents action",
                       "Defending High Block & Press: Can we recover the ball trhough interception or tackling"
