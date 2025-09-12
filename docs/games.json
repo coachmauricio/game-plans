@@ -205,7 +205,7 @@
       "doMidLowPress": "images/3412-LOW-MID-PRESS-433.png",
       "aoBuild": "images/3412-BUILD-433.png"
     },
-    "availablePlayers": ["Thomas","Isaac","Ty","Ricky"],
+    "availablePlayers": ["Thomas","Isaac","Liam","Ty","Ricky"],
     "trainingRecap": ["Defending; Read the game, make the interception, block the shot — small actions that win big games.",
                       "Attacking – Box Entry Combinations: Slide Pass · Wall Pass · Third-Man Run"],
     "gameModel": {
