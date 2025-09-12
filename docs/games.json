@@ -191,20 +191,21 @@
       "defensiveTransition": "React fast, recover hard, regroup quickly. Win it back or slow them down.",
       "attackingTransition": "Secure the ball first. If the break is on, go fast. If not, keep it and build with control."
     },
-    "videoReview": []
+    "videoReview": [
+    ]
   },
   {
     "id": "Bavarian-United-SC-2025-09-13",
     "opponent": "Bavarian United SC",
     "date": "Sep 13, 2025",
     "images": {
-      "lineup": "",
+      "lineup": "images/GAME-08.png",
       "opponentSOP": "images/OPPONENT-433.jpeg",
       "doFullPress": "images/3412-HIGH-PRESS-433.png",
       "doMidLowPress": "images/3412-LOW-MID-PRESS-433.png",
       "aoBuild": "images/3412-BUILD-433.png"
     },
-    "availablePlayers": [],
+    "availablePlayers": ["Thomas","Isaac","Ty","Ricky"],
     "trainingRecap": ["Defending; Read the game, make the interception, block the shot — small actions that win big games.",
                       "Attacking – Box Entry Combinations: Slide Pass · Wall Pass · Third-Man Run"],
     "gameModel": {
@@ -213,7 +214,10 @@
       "defensiveTransition": "React fast, recover hard, regroup quickly. Win it back or slow them down.",
       "attackingTransition": "Secure the ball first. If the break is on, go fast. If not, keep it and build with control."
     },
-    "videoReview": []
+    "videoReview": [
+        {"link": "https://app.veo.co/matches/20250907-2011-cup-boys-gold-mls-u15-vs-mfa-eyeball-0c34907b/#t=19:55", "note":"GK finding the FREE player."},
+        {"link": "https://www.instagram.com/reel/DOGcSq0jiOQ/?igsh=b3VndjlsMmUxZW9k", "note":"Wing Back takes the throw to keep the CBs in place, and in rest defense we always stay +1 — adding extra cover when protecting a lead. "}
+    ]
   },
   {
     "id": "Indy-Eleven-2025-09-14",
