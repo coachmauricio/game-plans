@@ -225,20 +225,24 @@
     "date": "Sep 14, 2025",
     "images": {
       "lineup": "",
-      "opponentSOP": "",
-      "doFullPress": "",
-      "doMidLowPress": "",
-      "aoBuild": ""
+      "opponentSOP": "images/OPPONENT-433.jpeg",
+      "doFullPress": "images/3412-HIGH-PRESS-433.png",
+      "doMidLowPress": "images/3412-LOW-MID-PRESS-433.png",
+      "aoBuild": "images/3412-BUILD-433.png"
     },
     "availablePlayers": [],
-    "trainingRecap": [],
+    "trainingRecap": ["Defending; Read the game, make the interception, block the shot — small actions that win big games.",
+                      "Attacking – Box Entry Combinations: Slide Pass · Wall Pass · Third-Man Run"],
     "gameModel": {
       "attackingOrganization": "Break lines through, around, or over. Move beyond, below, and beside the ball to create options. Be composed, fast, and sharp.",
       "defensiveOrganization": "Press high when we can. In our half, stay compact. In the box: fill space, find your mark, and clear big. Everyone defends.",
       "defensiveTransition": "React fast, recover hard, regroup quickly. Win it back or slow them down.",
       "attackingTransition": "Secure the ball first. If the break is on, go fast. If not, keep it and build with control."
     },
-    "videoReview": []
+    "videoReview": [
+        {"link": "https://app.veo.co/matches/20250907-2011-cup-boys-gold-mls-u15-vs-mfa-eyeball-0c34907b/#t=19:55", "note":"GK finding the FREE player."},
+        {"link": "https://app.veo.co/matches/20250907-2011-cup-boys-gold-mls-u15-vs-mfa-eyeball-0c34907b/#t=75:55", "note":"Wing Back takes the throw to keep the CBs in place, and in rest defense we always stay +1 — adding extra cover when protecting a lead. "}
+    ]
   },
   {
     "id": "Midwest-United-FC-2025-09-20",
