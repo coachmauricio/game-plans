@@ -224,13 +224,13 @@
     "opponent": "Indy Eleven",
     "date": "Sep 14, 2025",
     "images": {
-      "lineup": "",
+      "lineup": "images/GAME-09.png",
       "opponentSOP": "images/OPPONENT-433.jpeg",
       "doFullPress": "images/3412-HIGH-PRESS-433.png",
       "doMidLowPress": "images/3412-LOW-MID-PRESS-433.png",
       "aoBuild": "images/3412-BUILD-433.png"
     },
-    "availablePlayers": [],
+    "availablePlayers": ["Xavier","Isaac","Liam","Sutton","Zion","Ricky"],
     "trainingRecap": ["Defending; Read the game, make the interception, block the shot — small actions that win big games.",
                       "Attacking – Box Entry Combinations: Slide Pass · Wall Pass · Third-Man Run"],
     "gameModel": {
