@@ -249,13 +249,13 @@
     "opponent": "Midwest United FC",
     "date": "Sep 20, 2025",
     "images": {
-      "lineup": "",
+      "lineup": "images/GAME-10.jpeg",
       "opponentSOP": "images/OPPONNENT-3142.jpeg",
       "doFullPress": "images/352-HIGH-PRESS-3142.jpeg",
       "doMidLowPress": "images/352-LOW-PRESS-3142.jpeg",
       "aoBuild": "images/352-BUILD-3142.jpeg"
     },
-    "availablePlayers": [],
+    "availablePlayers": ["Thomas","Owen","Amr","Angelica","Mason","Ricky"],
     "trainingRecap": ["React fast, recover hard, regroup quickly. Win it back or slow them down."],
     "gameModel": {
       "attackingOrganization": "Break lines through, around, or over. Move beyond, below, and beside the ball to create options. Be composed, fast, and sharp.",
@@ -264,9 +264,10 @@
       "attackingTransition": "Secure the ball first. If the break is on, go fast. If not, keep it and build with control."
     },
     "videoReview": [
-      {"link":"https://app.veo.co/matches/20250914-2011-cup-boys-gold-mls-u15-vs-indy-eleven-eyeball-24b860bd/#t=46:02", "note":"After winning the ball, look to progress quickly and exploit the spaces before the opponent can recover. Attack with speed whenever the opportunity is there." }
+      {"link": "https://app.veo.co/matches/20250914-2011-cup-boys-gold-mls-u15-vs-indy-eleven-eyeball-24b860bd/#t=46:02", "note":"After winning the ball, look to progress quickly and exploit the spaces before the opponent can recover. Attack with speed whenever the opportunity is there." }
    ]
   },
+  {
     "id": "Sockers-FC-Chicago-2025-10-04",
     "opponent": "Sockers FC Chicago",
     "date": "Oct 4, 2025",
