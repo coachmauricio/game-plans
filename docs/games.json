@@ -263,9 +263,10 @@
       "defensiveTransition": "React fast, recover hard, regroup quickly. Win it back or slow them down.",
       "attackingTransition": "Secure the ball first. If the break is on, go fast. If not, keep it and build with control."
     },
-    "videoReview": ["link":"https://app.veo.co/matches/20250914-2011-cup-boys-gold-mls-u15-vs-indy-eleven-eyeball-24b860bd/#t=46:02", "note":"After winning the ball, look to progress quickly and exploit the spaces before the opponent can recover. Attack with speed whenever the opportunity is there." ]
+    "videoReview": [
+      {"link":"https://app.veo.co/matches/20250914-2011-cup-boys-gold-mls-u15-vs-indy-eleven-eyeball-24b860bd/#t=46:02", "note":"After winning the ball, look to progress quickly and exploit the spaces before the opponent can recover. Attack with speed whenever the opportunity is there." }
+   ]
   },
-  {
     "id": "Sockers-FC-Chicago-2025-10-04",
     "opponent": "Sockers FC Chicago",
     "date": "Oct 4, 2025",
