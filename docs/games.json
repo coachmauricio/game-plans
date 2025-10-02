@@ -273,9 +273,9 @@
     "date": "Oct 4, 2025",
     "images": {
       "lineup": "",
-      "opponentSOP": "",
-      "doFullPress": "",
-      "doMidLowPress": "",
+      "opponentSOP": "images/OPPONENT-433.jpeg",
+      "doFullPress": "images/3412-HIGH-PRESS-433.png",
+      "doMidLowPress": "images/3412-LOW-MID-PRESS-433.png",
       "aoBuild": ""
     },
     "availablePlayers": [],
