@@ -278,7 +278,7 @@
       "doMidLowPress": "images/3412-LOW-MID-PRESS-433.png",
       "aoBuild": "images/3142-433-BUIILD.jpeg"
     },
-    "availablePlayers": [],
+    "availablePlayers": ["Xavier", "Owen","Liam","Wes","Ricky"],
     "trainingRecap": ["In our half, mid-low block: stay compact, close the gaps, move as one. Protect the space, control the threat."],
     "gameModel": {
       "attackingOrganization": "Break lines through, around, or over. Move beyond, below, and beside the ball to create options. Be composed, fast, and sharp.",
