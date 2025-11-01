@@ -13,6 +13,7 @@
   { "id": "Michigan-Wolves-2025-10-18", "date": "Oct 18, 2025", "opponent": "Michigan Wolves", "formation": "1-4-3-3", "score": "3-5", "scorers": ["Zion", "Mason(2)"] },
   { "id": "Vardar-2025-10-19", "date": "Oct 19, 2025", "opponent": "Vardar Soccer Club", "formation": "1-4-3-3", "score": "1-0", "scorers":["Zion"]},
   { "id": "Midwest-United-FC-2025-11-02", "date": "Nov 2, 2025", "opponent": "Midwest United FC", "formation": "1-4-2-3-1", "score": "" },
+  { "id": "Michigan-Futbol-Academy-2025-11-09", "date": "Nov 9, 2025", "opponent": "Michigan Futbol Academy", "formation": "1-4-3-3", "score": "" },
   { "id": "Chicago-FC-United-2025-11-16", "date": "Nov 16, 2025", "opponent": "Chicago FC United", "formation": "", "score": "" },
   { "id": "Hoosier-Premier-2026-02-28", "date": "Feb 28, 2026", "opponent": "Hoosier Premier", "formation": "", "score": "" },
   { "id": "Michigan-Wolves-2026-03-07", "date": "Mar 7, 2026", "opponent": "Michigan Wolves", "formation": "", "score": "" },
