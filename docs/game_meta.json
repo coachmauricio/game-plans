@@ -9,7 +9,7 @@
   { "id": "Bavarian-United-SC-2025-09-13", "date": "Sep 13, 2025", "opponent": "Bavarian United SC", "formation": "1343-14D2", "score": "6-1", "scorers": ["Ty(2)", "Wes(2)", "Sutton","Mason"] },
   { "id": "Indy-Eleven-2025-09-14", "date": "Sep 14, 2025", "opponent": "Indy Eleven", "formation": "1-4-4-2", "score": "2-2", "scorers": ["Zion", "Amr"] },
   { "id": "Midwest-United-FC-2025-09-20", "date": "Sep 20, 2025", "opponent": "Midwest United FC", "formation": "1-4-2-3-1", "score": "0-1" },
-  { "id": "Sockers-FC-Chicago-2025-10-04", "date": "Oct 4, 2025", "opponent": "Sockers FC Chicago", "formation": "1-4-3-3", "score": "1-4" , "scorers": ["Zion"] 
+  { "id": "Sockers-FC-Chicago-2025-10-04", "date": "Oct 4, 2025", "opponent": "Sockers FC Chicago", "formation": "1-4-3-3", "score": "1-4" , "scorers": ["Zion"] },
   { "id": "Michigan-Wolves-2025-10-18", "date": "Oct 18, 2025", "opponent": "Michigan Wolves", "formation": "1-4-3-3", "score": "3-5", "scorers": ["Zion", "Mason(2)"] },
   { "id": "Vardar-2025-10-19", "date": "Oct 19, 2025", "opponent": "Vardar Soccer Club", "formation": "1-4-3-3", "score": "1-0", "scorers":["Zion"]},
   { "id": "Midwest-United-FC-2025-11-02", "date": "Nov 2, 2025", "opponent": "Midwest United FC", "formation": "1-4-2-3-1", "score": "" },
