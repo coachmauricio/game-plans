@@ -340,13 +340,13 @@
     "opponent": "Midwest United FC",
     "date": "Nov 2, 2025",
     "images": {
-      "lineup": "",
+      "lineup": "images/GAME-14.JPG",
       "opponentSOP": "images/MIDWEST-UNITED.png",
       "doFullPress": "images/4231-433-HIGH-PRESS.jpeg",
       "doMidLowPress": "images/442-LOW-MID-BLOCK.jpeg",
       "aoBuild": "images/4231-433-BUILD.jpeg"
     },
-    "availablePlayers": [],
+    "availablePlayers": ["Owen","Liam", "Adrian","Amr","Ricardo"],
     "trainingRecap": ["This week we focused on our back four and overall defensive organization in our own half — emphasizing compactness, communication, and coordinated movement when stepping or dropping. In defensive transitions, we worked on the three R’s: react, recover, and regroup to quickly restore our team shape."],
     "gameModel": {
       "attackingOrganization": "Break lines through, around, or over. Move beyond, below, and beside the ball to create options. Be composed, fast, and sharp.",
