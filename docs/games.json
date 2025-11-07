@@ -357,6 +357,26 @@
     "videoReview": []
   },
   {
+    "id": "Michigan-Futbol-Academy-2025-11-09",
+    "opponent": "Michigan Futbol Academy",
+    "date": "Nov 11, 2025",
+    "images": {
+      "lineup": "",
+      "opponentSOP": "",
+      "doFullPress": "images/4231-433-HIGH-PRESS.jpeg",
+      "doMidLowPress": "images/442-LOW-MID-BLOCK.jpeg",
+      "aoBuild": "images/4231-433-BUILD.jpeg"
+    },
+    "availablePlayers": [],
+    "gameModel": {
+      "attackingOrganization": "Break lines through, around, or over. Move beyond, below, and beside the ball to create options. Be composed, fast, and sharp.",
+      "defensiveOrganization": "Press high when we can. In our half, stay compact. In the box: fill space, find your mark, and clear big. Everyone defends.",
+      "defensiveTransition": "React fast, recover hard, regroup quickly. Win it back or slow them down.",
+      "attackingTransition": "Secure the ball first. If the break is on, go fast. If not, keep it and build with control."
+    },
+    "videoReview": []
+  },
+  {
     "id": "Chicago-FC-United-2025-11-16",
     "opponent": "Chicago FC United",
     "date": "Nov 16, 2025",
