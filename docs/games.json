@@ -367,7 +367,7 @@
       "doMidLowPress": "images/442-LOW-MID-BLOCK.jpeg",
       "aoBuild": "images/4231-433-BUILD.jpeg"
     },
-    "availablePlayers": [],
+    "availablePlayers": [""],
     "gameModel": {
       "attackingOrganization": "Break lines through, around, or over. Move beyond, below, and beside the ball to create options. Be composed, fast, and sharp.",
       "defensiveOrganization": "Press high when we can. In our half, stay compact. In the box: fill space, find your mark, and clear big. Everyone defends.",
