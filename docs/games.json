@@ -363,8 +363,8 @@
     "images": {
       "lineup": "",
       "opponentSOP": "",
-      "doFullPress": "images/4231-433-HIGH-PRESS.jpeg",
-      "doMidLowPress": "images/442-LOW-MID-BLOCK.jpeg",
+      "doFullPress": "images/433-HIGH-PRESS-433.jpg",
+      "doMidLowPress": "images/433-LOW-PRESS.jpg",
       "aoBuild": "images/433-BUILD-433.jpg"
     },
     "availablePlayers": [""],
