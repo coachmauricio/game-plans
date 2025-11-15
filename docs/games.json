@@ -382,13 +382,13 @@
     "opponent": "Chicago FC United",
     "date": "Nov 16, 2025",
     "images": {
-      "lineup": "",
-      "opponentSOP": "",
+      "lineup": "images/GAME-16.jpg",
+      "opponentSOP": "images/OPPONENT-433.jpeg",
       "doFullPress": "images/433-HIGH-PRESS-433.jpg",
       "doMidLowPress": "images/433-LOW-PRESS-433.jpg",
       "aoBuild": "images/433-BUILD-433.jpg"
     },
-    "availablePlayers": [],
+    "availablePlayers": ["Xavier","Adrian","Angelica","Liam","Ricky"],
     "trainingRecap": ["This week we focused on our mid and low defensive press, emphasizing staying compact both vertically and horizontally. We worked on shifting as a unit, closing passing lanes, and anticipating triggers to step or drop. The goal was to improve our collective organization, communication, and ability to win the ball in advantageous areas while limiting the opponent’s space and time"],
     "gameModel": {
       "attackingOrganization": "Break lines through, around, or over. Move beyond, below, and beside the ball to create options. Be composed, fast, and sharp.",
