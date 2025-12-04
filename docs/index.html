@@ -17,7 +17,6 @@
       fetch('game_meta.json').then(r => r.json()),
       fetch('games.json').then(r => r.json())
     ]).then(([meta, games]) => {
-      // Helper to color score
       function scoreClass(score) {
         if (!score) return '';
         const parts = score.split('-');
@@ -40,45 +39,74 @@
         .filter(g => !isNaN(g.dateObj))
         .sort((a, b) => a.dateObj - b.dateObj);
 
-      // Render all games in order
+      // Group games: Sat+Sun, others single
+      const groups = [];
+      let i = 0;
+      while (i < sortedGames.length) {
+        const day = sortedGames[i].dateObj.getDay();
+        if (day === 6 && i + 1 < sortedGames.length && sortedGames[i + 1].dateObj.getDay() === 0) {
+          // Saturday + Sunday
+          groups.push([sortedGames[i], sortedGames[i + 1]]);
+          i += 2;
+        } else {
+          // Single day group (weekday or lone weekend)
+          groups.push([sortedGames[i]]);
+          i += 1;
+        }
+      }
+
+      // Render groups
       const calendar = document.getElementById('calendar');
-      calendar.innerHTML = sortedGames.map(game => {
-        const details = { ...game, ...gameMap[game.id] };
+      calendar.innerHTML = groups.map(group => {
+        const header = group.map(g =>
+          g.dateObj.toLocaleDateString('en-US', { year: '2-digit', month: 'numeric', day: 'numeric' })
+        ).join(' - ');
         return `
-          <div class="game-card" data-date="${details.date}">
-            ${details.scorers && details.scorers.length ? `
-              <div class="scorers-list">${details.scorers.join(', ')}</div>
-            ` : ''}
-            <div class="game-date">${details.date || ''}</div>
-            <h2>${details.opponent ? 'vs ' + details.opponent : ''}</h2>
-            ${details.formation ? `<div class="formation">${details.formation}</div>` : ''}
-            <div>${details.competition || ''}</div>
-            <div class="game-meta">
-              <span class="score ${scoreClass(details.score || '')}">${details.score || ''}</span>
-            </div>
-            <a href="game.html?id=${details.id}" class="view-link">View Plan</a>
+          <h2 class="month-header">${header}</h2>
+          <div class="game-grid">
+            ${group.map(details => {
+              details = { ...details, ...gameMap[details.id] };
+              return `
+                <div class="game-card" data-date="${details.date}">
+                  ${details.scorers && details.scorers.length ? `
+                    <div class="scorers-list">${details.scorers.join(', ')}</div>
+                  ` : ''}
+                  <div class="game-date">${details.date || ''}</div>
+                  <h2>${details.opponent ? 'vs ' + details.opponent : ''}</h2>
+                  ${details.formation ? `<div class="formation">${details.formation}</div>` : ''}
+                  <div>${details.competition || ''}</div>
+                  <div class="game-meta">
+                    <span class="score ${scoreClass(details.score || '')}">${details.score || ''}</span>
+                  </div>
+                  <a href="game.html?id=${details.id}" class="view-link">View Plan</a>
+                </div>
+              `;
+            }).join('')}
           </div>
         `;
       }).join('');
 
-      // Highlight current week
+      // Highlight current day
       const today = new Date();
-      const startOfWeek = new Date(today);
-      startOfWeek.setDate(today.getDate() - today.getDay()); // Sunday
-      startOfWeek.setHours(0,0,0,0);
-      const endOfWeek = new Date(today);
-      endOfWeek.setDate(today.getDate() + (6 - today.getDay())); // Saturday
-      endOfWeek.setHours(23,59,59,999);
+      today.setHours(0,0,0,0);
 
       document.querySelectorAll('.game-card[data-date]').forEach(card => {
         const gameDateStr = card.getAttribute('data-date');
         if (gameDateStr) {
           const gameDate = new Date(gameDateStr);
-          if (gameDate >= startOfWeek && gameDate <= endOfWeek) {
+          if (gameDate.toDateString() === today.toDateString()) {
             card.classList.add('highlight-week');
           }
         }
       });
+
+      // Scroll to last group header (most recent week)
+      const headers = Array.from(document.querySelectorAll('.month-header'));
+      if (headers.length) {
+        setTimeout(() => {
+          headers[headers.length - 1].scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }, 300);
+      }
     });
   </script>
 </body>
