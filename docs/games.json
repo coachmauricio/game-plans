@@ -398,6 +398,70 @@
     },
     "videoReview": []
   },
+{
+  "id": "Blau-Weiss-Gottschee-2025-12-12",
+  "opponent": "Blau Weiss Gottschee",
+  "date": "Dec 12, 2025",
+  "images": {
+    "lineup": "",
+    "opponentSOP": "",
+    "doFullPress": "",
+    "doMidLowPress": "",
+    "aoBuild": ""
+  },
+  "availablePlayers": [],
+  "trainingRecap": [],
+  "gameModel": {
+    "attackingOrganization": "",
+    "defensiveOrganization": "",
+    "defensiveTransition": "",
+    "attackingTransition": ""
+  },
+  "videoReview": []
+},
+{
+  "id": "Chula-Vista-FC-2025-12-14",
+  "opponent": "Chula Vista FC",
+  "date": "Dec 14, 2025",
+  "images": {
+    "lineup": "",
+    "opponentSOP": "",
+    "doFullPress": "",
+    "doMidLowPress": "",
+    "aoBuild": ""
+  },
+  "availablePlayers": [],
+  "trainingRecap": [],
+  "gameModel": {
+    "attackingOrganization": "",
+    "defensiveOrganization": "",
+    "defensiveTransition": "",
+    "attackingTransition": ""
+  },
+  "videoReview": []
+},
+{
+  "id": "Santa-Barbara-Soccer-Club-2025-12-15",
+  "opponent": "Santa Barbara Soccer Club",
+  "date": "Dec 15, 2025",
+  "images": {
+    "lineup": "",
+    "opponentSOP": "",
+    "doFullPress": "",
+    "doMidLowPress": "",
+    "aoBuild": ""
+  },
+  "availablePlayers": [],
+  "trainingRecap": [],
+  "gameModel": {
+    "attackingOrganization": "",
+    "defensiveOrganization": "",
+    "defensiveTransition": "",
+    "attackingTransition": ""
+  },
+  "videoReview": []
+},
+  
   {
     "id": "Hoosier-Premier-2026-02-28",
     "opponent": "Hoosier Premier",
