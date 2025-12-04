@@ -100,11 +100,16 @@
         }
       });
 
-      // Scroll to last group header (most recent week)
+      // Scroll to the most recent group before or containing today, else first group
       const headers = Array.from(document.querySelectorAll('.month-header'));
+      let targetIdx = 0;
+      for (let g = 0; g < groups.length; g++) {
+        const latestDate = new Date(Math.max(...groups[g].map(game => game.dateObj.getTime())));
+        if (latestDate <= today) targetIdx = g;
+      }
       if (headers.length) {
         setTimeout(() => {
-          headers[headers.length - 1].scrollIntoView({ behavior: 'smooth', block: 'start' });
+          headers[targetIdx].scrollIntoView({ behavior: 'smooth', block: 'start' });
         }, 300);
       }
     });
