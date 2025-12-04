@@ -30,74 +30,33 @@
         return 'score-draw';
       }
 
-      // Helper: find game for a given date
-      function findGameForDate(games, date) {
-        return games.find(g => {
-          const gameDate = new Date(g.date);
-          return gameDate.toDateString() === date.toDateString();
-        });
-      }
-
-      // Helper: get all weekends between start and end
-      function getAllWeekends(startDate, endDate) {
-        const weekends = [];
-        let d = new Date(startDate);
-        d.setDate(d.getDate() + (6 - d.getDay())); // move to Saturday
-        while (d <= endDate) {
-          const saturday = new Date(d);
-          const sunday = new Date(d);
-          sunday.setDate(saturday.getDate() + 1);
-          weekends.push({
-            saturday,
-            sunday
-          });
-          d.setDate(d.getDate() + 7);
-        }
-        return weekends;
-      }
-
-      // Get min/max date from meta
-      const allDates = meta.map(g => new Date(g.date)).filter(d => !isNaN(d));
-      const seasonStart = new Date(Math.min(...allDates));
-      const seasonEnd = new Date(Math.max(...allDates));
-      const weekends = getAllWeekends(seasonStart, seasonEnd);
-
       // Build a lookup for extra game details
       const gameMap = {};
       games.forEach(g => gameMap[g.id] = g);
 
-      // Render
+      // Sort all games by date
+      const sortedGames = meta
+        .map(g => ({ ...g, dateObj: new Date(g.date) }))
+        .filter(g => !isNaN(g.dateObj))
+        .sort((a, b) => a.dateObj - b.dateObj);
+
+      // Render all games in order
       const calendar = document.getElementById('calendar');
-      calendar.innerHTML = weekends.map(({saturday, sunday}) => {
-        const satGame = meta.find(g => new Date(g.date).toDateString() === saturday.toDateString());
-        const sunGame = meta.find(g => new Date(g.date).toDateString() === sunday.toDateString());
-        const satDetails = satGame ? { ...satGame, ...gameMap[satGame.id] } : null;
-        const sunDetails = sunGame ? { ...sunGame, ...gameMap[sunGame.id] } : null;
-        // Short date format for header
-        const header = `${saturday.toLocaleDateString('en-US', { year: '2-digit', month: 'numeric', day: 'numeric' })} - ${sunday.toLocaleDateString('en-US', { year: '2-digit', month: 'numeric', day: 'numeric' })}`;
+      calendar.innerHTML = sortedGames.map(game => {
+        const details = { ...game, ...gameMap[game.id] };
         return `
-          <h2 class="month-header">${header}</h2>
-          <div class="game-grid">
-            ${[satDetails, sunDetails].map(game => game ? `
-              <div class="game-card" data-date="${game.date}">
-                ${game.scorers && game.scorers.length ? `
-                  <div class="scorers-list">${game.scorers.join(', ')}</div>
-                ` : ''}
-                <div class="game-date">${game.date || ''}</div>
-                <h2>${game.opponent ? 'vs ' + game.opponent : ''}</h2>
-                ${game.formation ? `<div class="formation">${game.formation}</div>` : ''}
-                <div>${game.competition || ''}</div>
-                <div class="game-meta">
-                  <span class="score ${scoreClass(game.score || '')}">${game.score || ''}</span>
-                </div>
-                <a href="game.html?id=${game.id}" class="view-link">View Plan</a>
-              </div>
-            ` : `
-              <div class="game-card empty-card">
-                <div class="game-date"></div>
-                <h2>No Game</h2>
-              </div>
-            `).join('')}
+          <div class="game-card" data-date="${details.date}">
+            ${details.scorers && details.scorers.length ? `
+              <div class="scorers-list">${details.scorers.join(', ')}</div>
+            ` : ''}
+            <div class="game-date">${details.date || ''}</div>
+            <h2>${details.opponent ? 'vs ' + details.opponent : ''}</h2>
+            ${details.formation ? `<div class="formation">${details.formation}</div>` : ''}
+            <div>${details.competition || ''}</div>
+            <div class="game-meta">
+              <span class="score ${scoreClass(details.score || '')}">${details.score || ''}</span>
+            </div>
+            <a href="game.html?id=${details.id}" class="view-link">View Plan</a>
           </div>
         `;
       }).join('');
@@ -120,23 +79,6 @@
           }
         }
       });
-
-      // Scroll to current week's header at top (with delay for iPad/Safari)
-      const currentWeekend = weekends.find(({saturday, sunday}) => {
-        return (saturday >= startOfWeek && saturday <= endOfWeek) ||
-               (sunday >= startOfWeek && sunday <= endOfWeek);
-      });
-
-      if (currentWeekend) {
-        const headerText = `${currentWeekend.saturday.toLocaleDateString('en-US', { year: '2-digit', month: 'numeric', day: 'numeric' })} - ${currentWeekend.sunday.toLocaleDateString('en-US', { year: '2-digit', month: 'numeric', day: 'numeric' })}`;
-        const headers = Array.from(document.querySelectorAll('.month-header'));
-        const targetHeader = headers.find(h => h.textContent.trim() === headerText);
-        if (targetHeader) {
-          setTimeout(() => {
-            targetHeader.scrollIntoView({ behavior: 'smooth', block: 'start' });
-          }, 300); // 300ms delay helps on iPad/Safari
-        }
-      }
     });
   </script>
 </body>
