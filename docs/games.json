@@ -409,7 +409,7 @@
     "doMidLowPress": "images/433-LOW-PRESS-433.jpg",
     "aoBuild": "images/433-BUILD-433.jpg"
   },
-  "availablePlayers": [],
+  "availablePlayers": ["Xavier", "Liam", "Angelica","Adrian","Ashyr", "Amr","Ricardo"],
   "trainingRecap": [],
   "gameModel": {
       "attackingOrganization": "Break lines through, around, or over. Move beyond, below, and beside the ball to create options. Be composed, fast, and sharp.",
