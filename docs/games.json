@@ -424,14 +424,14 @@
   "opponent": "Chula Vista FC",
   "date": "Dec 14, 2025",
   "images": {
-    "lineup": "",
+    "lineup": "images/GAME-18.jpg",
     "opponentSOP": "images/OPPONENT-433.jpeg",
     "doFullPress": "images/433-HIGH-PRESS-433.jpg",
     "doMidLowPress": "images/433-LOW-PRESS-433.jpg",
     "aoBuild": "images/433-BUILD-433.jpg"
 
   },
-  "availablePlayers": [],
+  "availablePlayers": ["Liam", "Owen","Angelica","Ashyr", "Amr","Ricardo"],
   "trainingRecap": [],
   "gameModel": {
       "attackingOrganization": "Break lines through, around, or over. Move beyond, below, and beside the ball to create options. Be composed, fast, and sharp.",
