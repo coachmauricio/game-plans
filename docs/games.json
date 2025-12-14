@@ -431,7 +431,7 @@
     "aoBuild": "images/433-BUILD-442.jpg"
 
   },
-  "availablePlayers": ["Liam", "Owen","Angelica","Ashyr", "Amr","Ricardo"],
+  "availablePlayers": ["Cam", "Owen","Angelica","Ashyr", "Amr","Ricardo"],
   "trainingRecap": [],
   "gameModel": {
       "attackingOrganization": "Break lines through, around, or over. Move beyond, below, and beside the ball to create options. Be composed, fast, and sharp.",
