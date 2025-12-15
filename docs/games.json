@@ -446,14 +446,14 @@
   "opponent": "Santa Barbara Soccer Club",
   "date": "Dec 15, 2025",
   "images": {
-    "lineup": "",
+    "lineup": "images/GAME-19.jpg",
     "opponentSOP": "images/OPPONENT-433.jpeg",
     "doFullPress": "images/433-HIGH-PRESS-433.jpg",
     "doMidLowPress": "images/433-LOW-PRESS-433.jpg",
     "aoBuild": "images/433-BUILD-433.jpg"
 
   },
-  "availablePlayers": [],
+  "availablePlayers": ["Isaac","Liam","Adrian","Andres","Wes","Mason"],
   "trainingRecap": [],
   "gameModel": {
       "attackingOrganization": "Break lines through, around, or over. Move beyond, below, and beside the ball to create options. Be composed, fast, and sharp.",
