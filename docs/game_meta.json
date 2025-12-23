@@ -17,7 +17,7 @@
   { "id": "Chicago-FC-United-2025-11-16", "date": "Nov 16, 2025", "opponent": "Chicago FC United", "formation": "1-4-3-3", "score": "2-2", "scorers":["Jake", "Nicky"] },
   { "id": "Blau-Weiss-Gottschee-2025-12-12", "date": "Dec 12, 2025", "opponent": "Blau Weiss Gottschee", "formation": "1-4-3-3", "score": "4-2" ,"scorers":["Mason(2)", "Ty", "Ashyr"] },
   { "id": "Chula-Vista-FC-2025-12-14", "date": "Dec 14, 2025", "opponent": "Chula Vista FC", "formation": "1-4-3-3", "score": "4-1","scorers":["Zion(2)", "Wes", "Mason"] },
-  { "id": "Santa-Barbara-Soccer-Club-2025-12-15", "date": "Dec 15, 2025", "opponent": "Santa Barbara Soccer Club", "formation": "1-4-3-3", "score": "" },
+  { "id": "Santa-Barbara-Soccer-Club-2025-12-15", "date": "Dec 15, 2025", "opponent": "Santa Barbara Soccer Club", "formation": "1-4-3-3", "score": "2-2" ,"scorers":["Ty", "Zion"] },
   { "id": "Hoosier-Premier-2026-02-28", "date": "Feb 28, 2026", "opponent": "Hoosier Premier", "formation": "", "score": "" },
   { "id": "Michigan-Wolves-2026-03-07", "date": "Mar 7, 2026", "opponent": "Michigan Wolves", "formation": "", "score": "" },
   { "id": "Michigan-Jaguars-2026-03-14", "date": "Mar 14, 2026", "opponent": "Michigan Jaguars", "formation": "", "score": "" },
